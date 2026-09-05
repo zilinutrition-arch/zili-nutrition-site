@@ -1,0 +1,24 @@
+{
+  "schema": "design-suite-icon-request/v1",
+  "page_context": "website",
+  "icon_kind": "ui-glyph",
+  "operation": "select",
+  "usage_scope": "external-client",
+  "technology_stack": "web",
+  "design_system": null,
+  "existing_icon_provider": "self-authored-inline-svg",
+  "b2b_style": null,
+  "requested_provider": "existing",
+  "real_assets": [],
+  "protected_facts": [
+    "organization_name",
+    "credentials",
+    "metrics",
+    "customers",
+    "pricing"
+  ],
+  "reicon_search_status": "unavailable",
+  "reicon_react_status": "unavailable",
+  "visual_preference": null,
+  "selected_icons": []
+}

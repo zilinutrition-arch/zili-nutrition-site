@@ -1,0 +1,13 @@
+{
+  "user_request_verbatim": "做个外贸独立站",
+  "b2b_wholesale": true,
+  "oem_odm_service": true,
+  "target_markets": ["Europe", "United States", "Southeast Asia"],
+  "language_requirement": "english-only",
+  "site_purpose": "B2B lead generation display site (no online transactions)",
+  "product_categorization": "by dosage form",
+  "site_scale": "standard corporate site, ~5 pages: Home, About Us, Products, OEM/ODM Services, Contact Us",
+  "deliverable_packaging": "archive download",
+  "available_assets": [],
+  "media_strategy_decision": "type-led (no real factory/product media supplied, no image generation key)"
+}

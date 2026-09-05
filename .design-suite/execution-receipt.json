@@ -1,0 +1,131 @@
+{
+  "ok": true,
+  "state": "export-ready",
+  "gate": "design-suite-execution",
+  "entry_skill": "design-suite",
+  "kind": "website",
+  "created_at": "2026-09-05T14:37:09.121Z",
+  "contract": {
+    "path": "website-contract.json",
+    "path_base": "receipt-directory",
+    "state": "sector-contract-ready",
+    "style": null,
+    "style_label": null,
+    "provider": null,
+    "package_versions": null,
+    "reference_bundle": null,
+    "delivery_adapter": "static-export",
+    "delivery_format": "single-html",
+    "export_mode": "single-file",
+    "asset_policy": "inline-base64",
+    "page_type": null,
+    "references": null
+  },
+  "browser": {
+    "served_url": "http://127.0.0.1:8917/index.html",
+    "captured_at": "2026-09-05T14:37:03.910Z",
+    "browser": "Google Chrome 152.0.7977.82"
+  },
+  "static_export": {
+    "artifact_path": "../website.html",
+    "artifact_path_base": "receipt-directory",
+    "captured_at": "2026-09-05T14:36:48.285Z",
+    "browser": "Google Chrome 152.0.7977.82"
+  },
+  "bindings": [
+    {
+      "label": "contract",
+      "path": "website-contract.json",
+      "path_base": "receipt-directory",
+      "type": "file",
+      "sha256": "f0e2ec1cae5a1ca6b6c4806203c019231b0b589e6dff74e0a9c328f6303606df",
+      "file_count": 1
+    },
+    {
+      "label": "source",
+      "path": "../src",
+      "path_base": "receipt-directory",
+      "type": "directory",
+      "sha256": "2ae64cdfa1d849d5f4f1bfedfed77dd595081c84ff49c7eb5e5a8fd2fbee2b5d",
+      "file_count": 3
+    },
+    {
+      "label": "model",
+      "path": "../../../../../../../../Library/Application Support/qianfan-desktop-app/qianfan_desk_xdg/global/data/plugins/design-suite-router/skills/build-website-page/references/sectors/general/sector-model.json",
+      "path_base": "receipt-directory",
+      "type": "file",
+      "sha256": "d61c4c2eb03b39f1d1fb1d3d99a031c5f72ab0a208c4030d5ed26bb11b131430",
+      "file_count": 1
+    },
+    {
+      "label": "route",
+      "path": "route.json",
+      "path_base": "receipt-directory",
+      "type": "file",
+      "sha256": "2946acd1bf9aba4b2b49f744c435edc025953ae937078b5f7249193026b76eee",
+      "file_count": 1
+    },
+    {
+      "label": "geometry",
+      "path": "layout-geometry.json",
+      "path_base": "receipt-directory",
+      "type": "file",
+      "sha256": "e5f539863d0cb615cd9480883b28e8158219c71f1cf2194e8374260cdef96658",
+      "file_count": 1
+    },
+    {
+      "label": "build",
+      "path": "../dist",
+      "path_base": "receipt-directory",
+      "type": "directory",
+      "sha256": "2ae64cdfa1d849d5f4f1bfedfed77dd595081c84ff49c7eb5e5a8fd2fbee2b5d",
+      "file_count": 3
+    },
+    {
+      "label": "browser",
+      "path": "browser-evidence.json",
+      "path_base": "receipt-directory",
+      "type": "file",
+      "sha256": "4583aa6794de2360f226929b51412816f87d2257f343e1fdd7dcf3dc6a480483",
+      "file_count": 1
+    },
+    {
+      "label": "artifact:1",
+      "path": "../website.html",
+      "path_base": "receipt-directory",
+      "type": "file",
+      "sha256": "543a2118286d5aff5c278f24db6d431ed5d418b8a21c67df6f612f8b416ba9d3",
+      "file_count": 1
+    },
+    {
+      "label": "static-evidence",
+      "path": "static-export-evidence.json",
+      "path_base": "receipt-directory",
+      "type": "file",
+      "sha256": "d9be3e9f45f51e25b8edb070b566896a2434c7de323f5149a61519c5a7d06d18",
+      "file_count": 1
+    }
+  ],
+  "verification": {
+    "ok": true,
+    "code": null,
+    "route": {
+      "ok": true,
+      "state": "route-ready"
+    },
+    "sector_contract": {
+      "ok": true,
+      "output": "PASS: general sector contract"
+    },
+    "layout_geometry": {
+      "ok": true,
+      "output": "PASS: 6 viewports, 3 probe invariant(s)"
+    },
+    "references": {
+      "ok": true,
+      "output": null
+    }
+  },
+  "export_permitted": true,
+  "receipt_id": "d034ca9385eb3e1f3c0a33be5701b8308e682e09bab69c9e9ab46e0740bb5542"
+}

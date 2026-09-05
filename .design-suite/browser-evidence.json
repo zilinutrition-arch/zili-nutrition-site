@@ -1,0 +1,104 @@
+{
+  "evidence_type": "website-browser-evidence/v1",
+  "generator": "capture-website-browser-evidence.mjs",
+  "kind": "website",
+  "served_url": "http://127.0.0.1:8917/index.html",
+  "captured_at": "2026-09-05T14:37:03.910Z",
+  "browser": "Google Chrome 152.0.7977.82",
+  "build_sha256": "2ae64cdfa1d849d5f4f1bfedfed77dd595081c84ff49c7eb5e5a8fd2fbee2b5d",
+  "contract_sha256": "f0e2ec1cae5a1ca6b6c4806203c019231b0b589e6dff74e0a9c328f6303606df",
+  "main_selector": "main",
+  "checks": {
+    "main_task": "passed",
+    "console": "passed",
+    "resources": "passed",
+    "keyboard": "passed",
+    "responsive": "passed",
+    "states": "passed"
+  },
+  "viewports": [
+    {
+      "width": 320,
+      "height": 568,
+      "ready_state": "complete",
+      "client_width": 305,
+      "scroll_width": 305,
+      "main_visible": true,
+      "body_text_length": 8118,
+      "failed_images": [],
+      "failed_resources": [],
+      "fonts_status": "loaded",
+      "error_count": 0
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "ready_state": "complete",
+      "client_width": 375,
+      "scroll_width": 375,
+      "main_visible": true,
+      "body_text_length": 8118,
+      "failed_images": [],
+      "failed_resources": [],
+      "fonts_status": "loaded",
+      "error_count": 0
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "ready_state": "complete",
+      "client_width": 753,
+      "scroll_width": 753,
+      "main_visible": true,
+      "body_text_length": 8118,
+      "failed_images": [],
+      "failed_resources": [],
+      "fonts_status": "loaded",
+      "error_count": 0
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "ready_state": "complete",
+      "client_width": 1425,
+      "scroll_width": 1425,
+      "main_visible": true,
+      "body_text_length": 8188,
+      "failed_images": [],
+      "failed_resources": [],
+      "fonts_status": "loaded",
+      "error_count": 0
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "ready_state": "complete",
+      "client_width": 1905,
+      "scroll_width": 1905,
+      "main_visible": true,
+      "body_text_length": 8188,
+      "failed_images": [],
+      "failed_resources": [],
+      "fonts_status": "loaded",
+      "error_count": 0
+    },
+    {
+      "width": 2560,
+      "height": 1080,
+      "ready_state": "complete",
+      "client_width": 2545,
+      "scroll_width": 2545,
+      "main_visible": true,
+      "body_text_length": 8188,
+      "failed_images": [],
+      "failed_resources": [],
+      "fonts_status": "loaded",
+      "error_count": 0
+    }
+  ],
+  "keyboard_focus": {
+    "tag": "a",
+    "visible": true,
+    "body_focused": false
+  }
+}

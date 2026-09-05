@@ -1,0 +1,545 @@
+{
+  "schema_version": "1.0.0",
+  "state": "compiled-route-contract",
+  "cache_key": "technology-evidence-system:1.0.0:3eb681f57e3f42506668cb684b1f7a8a371e60579fae71f44c404c08f47354fe:-:-:-:0085516e7c4e58876abd63a4b4752648bddacc955d923e5ddf34c99844eadb34",
+  "source_route": {
+    "path": "zili-nutrition-site/.design-suite/route.json",
+    "sha256": "2946acd1bf9aba4b2b49f744c435edc025953ae937078b5f7249193026b76eee",
+    "state": "route-ready"
+  },
+  "profile": {
+    "id": "technology-evidence-system",
+    "label": "科技风",
+    "status": "pilot",
+    "path": "/Users/qidapa/Library/Application Support/qianfan-desktop-app/qianfan_desk_xdg/global/data/plugins/design-suite-router/skills/design-style-core/references/presets/technology-evidence-system/preset.json",
+    "runtime_manifest": {
+      "path": null,
+      "sha256": null
+    },
+    "prompt": {
+      "variant_id": null,
+      "path": "/Users/qidapa/Library/Application Support/qianfan-desktop-app/qianfan_desk_xdg/global/data/plugins/design-suite-router/skills/design-style-core/references/presets/technology-evidence-system/PROMPT.md",
+      "sha256": "0085516e7c4e58876abd63a4b4752648bddacc955d923e5ddf34c99844eadb34"
+    },
+    "visual_contract": {
+      "intent": {
+        "design_thesis": "让用户先看见真实对象和证据，再理解机制与价值，最后知道条件、边界和下一步。",
+        "tone": [
+          "可信",
+          "精确",
+          "清楚",
+          "前瞻",
+          "可核验"
+        ],
+        "emotional_goal": "降低用户评估复杂技术、产品、研究或集团版图时的不确定感，并建立可继续行动的信心。",
+        "differentiation": "科技感由真实产品、任务、机制、规格、来源、状态和恢复构成，而不是由深色、蓝紫、粒子、玻璃和发光构成。"
+      },
+      "visual_language": {
+        "color": [
+          "根据对象、媒体、品牌和任务选择浅色、深色或双表面，不默认深色或蓝紫。",
+          "每个表面只有一个主要行动色；信息、成功、警告和错误拥有独立语义角色。",
+          "文案覆盖媒体时定义安全区与实测对比，不使用暗化、模糊或渐变遮罩掩盖错误裁切。",
+          "高饱和色用于行动、状态或少量导航信号，不铺满页面；渐变只有在表达真实技术含义时使用。"
+        ],
+        "typography": [
+          "使用已授权、可本地化的项目字体；不复制样本字体文件或压缩字形。",
+          "Desktop 使用 56/44/32/24/18/16/14/12 的角色起点，Mobile 使用 40/32/26/20/17/16/14/12，并按内容采用离散档位。",
+          "letter-spacing 默认为 0；等宽字体只用于真实代码、命令、坐标、ID、版本和测量。",
+          "数字必须绑定单位、时间范围、条件或来源；读时、日期、版本和责任信息不能弱化为装饰。",
+          "产品族页使用稳定的 label → 型号标题 → 描述/价格 → 行动层级；重复产品 band 共享角色和锚点，不共享品牌字体或固定字号。"
+        ],
+        "spacing": [
+          "采用 4px 基础尺度，常用 4/8/12/16/24/32/48/64/80/96。",
+          "发布和品牌叙事为低到中密度，科研与集团门户为中密度，规格、比较和产品 UI 为中到高密度。",
+          "移动 gutter 从 20px 起，桌面为 24–48px；标签、控件、说明和来源按任务紧密分组。",
+          "大留白必须分隔标题、对象和下一任务，并由内容锚点闭合；不得用空白掩盖缺失的对象、证据或行动。"
+        ],
+        "layout": [
+          "第一视口出现真实产品、研究/任务对象、真实 UI/输出或字面 offer。",
+          "使用 reading 720px、content 1200px、wide 1440px 和全宽媒体 band 的分层容器。",
+          "页面 section 使用全宽 band 或无框布局；卡片只用于重复产品、文章、任务或真正需要边界的工具。",
+          "按 Physical Product、Consumer Product Family、Public Science、Corporate Portfolio 或 Operational Proof 选择主布局，不把多种任务平均成模板。",
+          "产品族页可采用品牌级导航 + 产品族导航两层结构；重复产品 band 固定文字、媒体控制和行动的相对锚点，媒体裁切按对象变化。"
+        ],
+        "shape": [
+          "产品和科研媒体优先无框或稳定矩形；工具、规格、代码和信息卡圆角通常不超过 8px。",
+          "主要行动可以是矩形或适度圆角，不把所有控件胶囊化。",
+          "阴影只表达覆盖、浮层或真实媒体深度，1px 分隔、表面变化和留白优先。"
+        ],
+        "imagery": [
+          "媒体优先级为真实产品/设备、真实使用场景、研究/任务影像、真实 UI/输出、规格/机制图、明确标注的原创概念媒体。",
+          "所有媒体定义稳定尺寸、焦点、移动 art direction、加载失败和替代内容。",
+          "真实 UI 不暗化、模糊、过度倾斜或裁掉关键状态；研究图片保留图注、来源和获取入口。",
+          "官网和网站页面默认使用 generated_media_mode=auto：真实素材优先，必要媒体缺失时使用 gpt-image-2 生成原创概念媒体；生成媒体记录 generated-concept provenance，且不得伪装成真实产品、研究、客户现场或公共事件。"
+        ],
+        "iconography": [
+          "播放、暂停、静音、前后、搜索和菜单使用熟悉图标；按钮固定 44x44px 目标并有可访问名称。",
+          "能力或主题分类可以使用图标加文字，但不重复大图标加圆角底座卡片。",
+          "不手绘样本品牌 glyph，也不把六边形、芯片线、网格和 3D 地球作为科技必需品。"
+        ],
+        "motion": [
+          "默认 none 或 restrained；cinematic 只用于有真实媒体、性能预算、静态回退和 reduced-motion 的发布叙事。",
+          "视频、背景媒体和轮播提供播放/暂停、静音、当前项和错误状态；自动播放默认静音。",
+          "交互模型只在参数、模型和结果可验证时使用，不用假数据模拟产品。"
+        ]
+      },
+      "rules": [
+        {
+          "id": "technology-proof-object-first",
+          "level": "MUST",
+          "applies_to": [
+            "website"
+          ],
+          "statement": "第一视口必须显示真实产品、研究或任务对象、真实 UI/输出，或不依赖媒体也成立的字面 offer。",
+          "rationale": "科技可信度来自可检查对象和证据，而不是视觉暗示。",
+          "validation": "关闭图片、视频和动效后检查首屏；对象身份、核心结论和下一步仍必须成立。",
+          "evidence_ids": [
+            "technology-product-proof",
+            "technology-dji-hero-action-pair",
+            "technology-nasa-live-time",
+            "technology-sony-editorial-hero"
+          ]
+        },
+        {
+          "id": "technology-task-specific-recipe",
+          "level": "MUST",
+          "applies_to": [
+            "website"
+          ],
+          "statement": "根据硬件产品、交通能源、公共科研、集团门户或软件产品任务选择对应页面 recipe，不能混用为一种科技首页。",
+          "rationale": "不同对象依靠不同证据和行动建立可信度。",
+          "validation": "交付前标记主页面类型和主视觉方向；若无法唯一回答，则退回内容架构。",
+          "evidence_ids": [
+            "technology-dji-product-taxonomy",
+            "technology-tesla-portfolio",
+            "technology-nasa-content-metadata",
+            "technology-sony-corporate-routing"
+          ]
+        },
+        {
+          "id": "technology-fact-boundary",
+          "level": "MUST",
+          "applies_to": [
+            "website"
+          ],
+          "statement": "能力、规格、客户、指标、价格、性能、研究结论、安全、合规、环境影响和可用性只能使用用户或来源提供的事实。",
+          "rationale": "视觉生成不能扩展为产品、科学或商业事实生成。",
+          "validation": "逐项检查受保护事实的来源、时间、版本、单位和条件；缺失项标记 unresolved 或隐藏。",
+          "evidence_ids": [
+            "technology-protected-facts",
+            "technology-tesla-claim-footnote",
+            "technology-nasa-source-responsibility"
+          ]
+        },
+        {
+          "id": "technology-action-hierarchy",
+          "level": "MUST",
+          "applies_to": [
+            "website"
+          ],
+          "statement": "每个决策点最多一个填充式主行动，并按页面任务和漏斗阶段决定购买、配置、预约、开始或进一步了解谁是主行动。",
+          "rationale": "清楚行动层级把对象和证据转化为可完成任务；购买不能机械覆盖尚需理解和比较的决策阶段。",
+          "validation": "逐屏统计填充主按钮，说明主行动与 page_task 的关系，并检查次级深入、交易和外部去向是否清楚。",
+          "evidence_ids": [
+            "technology-dji-hero-action-pair",
+            "technology-tesla-offer-action-pair",
+            "technology-tech1-action-pair",
+            "technology-tech1-action-context"
+          ]
+        },
+        {
+          "id": "technology-product-family-selection",
+          "level": "MUST",
+          "applies_to": [
+            "website"
+          ],
+          "statement": "消费硬件产品族页面必须让用户先理解型号/方案的定位和适用对象，再进入购买或详细规格。",
+          "rationale": "产品族入口的核心任务是帮助用户选择，而不是把多个型号并列展示后要求用户自行推断差异。",
+          "validation": "检查产品族导航、型号名称、定位/适用对象、价格或可用性、详情和购买去向是否形成连续决策链。",
+          "evidence_ids": [
+            "technology-tech1-family-navigation",
+            "technology-tech1-action-pair"
+          ]
+        },
+        {
+          "id": "technology-comparison-dimension-integrity",
+          "level": "MUST",
+          "applies_to": [
+            "website"
+          ],
+          "statement": "型号比较必须使用稳定、可解释且与选择任务相关的维度；移动端保留维度和型号的横向关系。",
+          "rationale": "规格只有在同一维度、单位、条件和差异关系中才构成产品证据。",
+          "validation": "检查定位、性能/机制、供电/充电、材质/工艺等维度是否有名称、值、单位/条件和可访问的移动呈现。",
+          "evidence_ids": [
+            "technology-tech1-comparison-proof",
+            "technology-tech1-mobile-recomposition",
+            "technology-tech1-comparison-decision-order",
+            "technology-tech1-comparison-column-alignment"
+          ]
+        },
+        {
+          "id": "technology-product-family-navigation-layering",
+          "level": "SHOULD",
+          "applies_to": [
+            "website"
+          ],
+          "statement": "多品类硬件官网应区分品牌级导航与当前产品族导航；产品族层只保留型号、配件、比较、支持或交易等当前任务入口。",
+          "rationale": "两层导航分离站点版图和当前选择上下文，避免把所有业务与型号压进同一菜单。",
+          "validation": "检查两层导航的职责、当前项、状态标签和移动收起策略，确认没有重复链接或互相竞争的 sticky 层。",
+          "evidence_ids": [
+            "technology-tech1-two-level-navigation",
+            "technology-tech1-family-navigation"
+          ]
+        },
+        {
+          "id": "technology-product-band-anchor-consistency",
+          "level": "SHOULD",
+          "applies_to": [
+            "website"
+          ],
+          "statement": "连续产品 band 应复用标签、标题、描述/价格、媒体控制和行动的稳定版式角色，同时允许产品媒体按对象重新构图。",
+          "rationale": "稳定锚点让用户快速扫描多个型号，变化的产品媒体则保留对象差异和视觉节奏。",
+          "validation": "叠加或并排检查连续产品区块：文字与行动角色保持一致，媒体不遮挡内容，移动端按阅读顺序重新编排。",
+          "evidence_ids": [
+            "technology-tech1-typographic-anchors",
+            "technology-tech1-product-band-template",
+            "technology-tech1-band-media-control"
+          ]
+        },
+        {
+          "id": "technology-source-and-context",
+          "level": "MUST",
+          "applies_to": [
+            "website"
+          ],
+          "statement": "科研、实时、性能和商业证据必须显示适用的内容类型、时间、单位、条件、来源、责任或脚注。",
+          "rationale": "没有上下文的大数字和结论不能被可靠解释。",
+          "validation": "检查指标、研究卡片、实时状态、图像和脚注是否具有可达来源与条件。",
+          "evidence_ids": [
+            "technology-tesla-claim-footnote",
+            "technology-nasa-content-metadata",
+            "technology-nasa-media-context",
+            "technology-nasa-source-responsibility"
+          ]
+        },
+        {
+          "id": "technology-media-failure-resilience",
+          "level": "MUST",
+          "applies_to": [
+            "website"
+          ],
+          "statement": "产品和研究媒体必须有稳定尺寸、替代内容和加载失败状态；失败后核心事实与行动仍完整。",
+          "rationale": "媒体是证据载体，但不能成为页面可理解性的单点故障。",
+          "validation": "阻断图片和视频请求，检查布局稳定、对象名称、结论、行动和替代文本。",
+          "evidence_ids": [
+            "technology-dji-media-density",
+            "technology-nasa-media-context",
+            "technology-tech1-media-resilience"
+          ]
+        },
+        {
+          "id": "technology-state-and-recovery",
+          "level": "MUST",
+          "applies_to": [
+            "website"
+          ],
+          "statement": "核心组件必须实现适用的 loading、empty、error、stale、disabled、media-error 和 recovery 状态。",
+          "rationale": "只展示理想状态会把宣传演示误当成可用系统。",
+          "validation": "为主要任务建立状态矩阵，并验证状态反馈、语义和恢复动作不造成布局跳动。",
+          "evidence_ids": [
+            "technology-feature-proof"
+          ]
+        },
+        {
+          "id": "technology-software-workflow-proof",
+          "level": "MUST",
+          "applies_to": [
+            "website"
+          ],
+          "statement": "软件产品总览和功能页必须用真实工作流或可得结果组织证明，再进入能力目录、企业约束与行动。",
+          "rationale": "产品能力只有与用户任务、可辨识界面或明确输出建立关系时，才可被检查。",
+          "validation": "检查章节顺序是否先呈现工作流或可得结果，并确认每个核心能力连接真实 UI、输出或状态。",
+          "evidence_ids": [
+            "technology-tech3-workflow-proof",
+            "technology-tech4-outcome-proof"
+          ]
+        },
+        {
+          "id": "technology-developer-reference-first",
+          "level": "MUST",
+          "applies_to": [
+            "website"
+          ],
+          "statement": "文档与开发者平台入口必须先提供产品域或接入方式分流，并把文档、参考、SDK、版本记录等技术行动置于首要位置。",
+          "rationale": "开发者页面的主要任务是完成接入与验证，不是接受营销转化。",
+          "validation": "检查首屏是否同时包含技术分流与至少一个可达的文档、参考或 SDK 行动，且移动端没有页面级横向溢出。",
+          "evidence_ids": [
+            "technology-tech5-domain-index",
+            "technology-tech6-lifecycle-reference"
+          ]
+        },
+        {
+          "id": "technology-pricing-conditions-before-action",
+          "level": "MUST",
+          "applies_to": [
+            "website"
+          ],
+          "statement": "用量或多层级定价必须在主要行动前说明计费模型、单位、条件和限制；价格数字不得单独充当章节语义。",
+          "rationale": "用户只有理解计量口径和适用条件后，才能作出可比较的转化决策。",
+          "validation": "检查计费模型和关键定义是否早于试用、购买或联系行动，并确认价格标题包含单位或口径。",
+          "evidence_ids": [
+            "technology-tech7-conditions-before-price-action",
+            "technology-tech8-price-heading-counterexample"
+          ]
+        },
+        {
+          "id": "technology-enterprise-trust-routing",
+          "level": "MUST",
+          "applies_to": [
+            "website"
+          ],
+          "statement": "企业信任页必须先说明产品边界或信任主张，再呈现价值、能力更新和可检索案例；涉及安全风险时首屏提供事件响应入口。",
+          "rationale": "企业用户需要先判断适用范围与风险路径，再评估价值主张和采用证据。",
+          "validation": "检查产品边界、价值、案例索引与适用时的事件响应入口的顺序和可达性。",
+          "evidence_ids": [
+            "technology-tech9-boundary-and-response",
+            "technology-tech10-filterable-cases"
+          ]
+        },
+        {
+          "id": "technology-motion-control",
+          "level": "MUST",
+          "applies_to": [
+            "website"
+          ],
+          "statement": "视频、背景媒体、轮播和自动更新必须可暂停，并在 reduced motion 下保留静态内容与当前状态。",
+          "rationale": "动效应帮助理解对象和状态，不能控制阅读节奏或隐藏事实。",
+          "validation": "检查播放、暂停、静音、当前项、键盘焦点、reduced motion 和媒体错误。",
+          "evidence_ids": [
+            "technology-motion-default",
+            "technology-sony-motion-control"
+          ]
+        },
+        {
+          "id": "technology-responsive-recomposition",
+          "level": "MUST",
+          "applies_to": [
+            "website"
+          ],
+          "statement": "移动端必须重新编排媒体、比较、导航、sticky UI 和弹层，并消除页面级横向溢出。",
+          "rationale": "桌面布局缩小会裁掉对象、关系、行动和隐私选择。",
+          "validation": "在 320px 与 390x844 检查 document scrollWidth、长标题、比较、导航、Cookie/订阅层和固定控件叠加。",
+          "evidence_ids": [
+            "technology-mobile-comparison",
+            "technology-tech1-mobile-recomposition",
+            "technology-dji-mobile-overflow",
+            "technology-tesla-mobile-fit",
+            "technology-nasa-mobile-reflow",
+            "technology-tech3-workflow-proof",
+            "technology-tech5-domain-index"
+          ]
+        },
+        {
+          "id": "technology-consent-layer-fit",
+          "level": "MUST",
+          "applies_to": [
+            "website"
+          ],
+          "statement": "Cookie、订阅、地区和促销层必须在 viewport 内保持目的、关闭/拒绝、管理和主要行动可达。",
+          "rationale": "获客和同意层不能以遮挡任务、裁切选择或制造横向溢出为代价。",
+          "validation": "验证 320px、390px、200% zoom、长文本和键盘顺序下所有选择与关闭动作。",
+          "evidence_ids": [
+            "technology-dji-mobile-overflow",
+            "technology-sony-consent-occlusion"
+          ]
+        },
+        {
+          "id": "technology-cross-system-context",
+          "level": "SHOULD",
+          "applies_to": [
+            "website"
+          ],
+          "statement": "跨品牌、跨业务、商店、文档、登录、下载和外部内容链接应在行动前说明去向与上下文变化。",
+          "rationale": "科技集团和产品生态常跨系统，用户需要知道责任和返回路径。",
+          "validation": "检查链接标签、新窗口/外部站点说明、下载格式和返回路径。",
+          "evidence_ids": [
+            "technology-dji-product-taxonomy",
+            "technology-sony-corporate-routing",
+            "technology-sony-editorial-hero"
+          ]
+        },
+        {
+          "id": "technology-no-aesthetic-shortcut",
+          "level": "AVOID",
+          "applies_to": [
+            "website"
+          ],
+          "statement": "避免把深色、蓝紫渐变、粒子、玻璃、发光、假终端和同尺寸卡片网格当作科技默认风格。",
+          "rationale": "固定视觉捷径会抹平对象差异并制造虚假技术感。",
+          "validation": "移除装饰效果后检查对象、机制、证据、边界和行动是否仍清楚；否则重构内容。",
+          "evidence_ids": [
+            "technology-no-default-aesthetic",
+            "technology-dji-hero-action-pair",
+            "technology-nasa-content-metadata",
+            "technology-sony-editorial-hero"
+          ]
+        }
+      ],
+      "page_context_adapter": {
+        "navigation": [
+          "根据产品、科研或集团任务组织主导航，复杂业务使用清楚分组而不是无限平铺。",
+          "长产品页或专题可使用 context navigation，但避免多个独立 sticky 顶栏叠加。"
+        ],
+        "layout": [
+          "使用全宽 hero/band、reading 720px、content 1200px 和 wide 1440px 的分层容器。",
+          "发布叙事低到中密度，科研/集团中密度，规格/比较/UI 中到高密度。",
+          "在 1440、1920、2560 检查媒体焦点、容器、导航和下一节提示。"
+        ],
+        "typography": [
+          "按 Hero、Display、Section、Body、Meta、Footnote 角色使用离散字号，不随 viewport 连续放大。",
+          "控制正文阅读宽度，数字绑定单位、条件和来源。"
+        ],
+        "media": [
+          "使用真实产品、任务影像、真实 UI/输出和机制图；定义稳定尺寸、替代内容和失败状态。",
+          "视频与轮播提供暂停、静音、当前项、静态 poster 和 reduced-motion。"
+        ],
+        "interaction": [
+          "区分 hover、focus-visible、pressed、disabled 和 loading；图标按钮目标至少 44x44px。",
+          "外部链接、下载、商店、登录和跨业务去向提前说明。"
+        ],
+        "constraints": [
+          "200% zoom 下不依赖页面级横向滚动完成主要任务。",
+          "不使用品牌复制、假证据、卡片嵌套、自动声音或无法暂停的轮播。"
+        ],
+        "responsive": {
+          "navigation": [
+            "首屏保留品牌/机构身份、菜单和一个关键工具；次要业务、地区和账户入口进入可访问菜单。",
+            "菜单打开时锁定正确滚动与焦点，关闭后焦点返回触发按钮。"
+          ],
+          "layout": [
+            "单列重新编排对象、证据和行动；局部 rail/比较提供明确横向策略。",
+            "20px 起 gutter；在 320px、390x844、横竖屏和 200% zoom 检查。",
+            "页面 scrollWidth 等于 viewport，固定控件与弹层不遮挡当前任务。"
+          ],
+          "typography": [
+            "Hero 40、Section 26、Body 16 为起点，使用离散档位并允许长标题换行。",
+            "日期、读时、版本、单位和脚注保持可读，不通过缩小字号压入一行。"
+          ],
+          "media": [
+            "使用移动 art direction、独立裁切或重新构图，不等比缩小桌面 hero。",
+            "媒体失败后对象名称、结论、行动和替代信息仍可见。"
+          ],
+          "interaction": [
+            "触控目标至少 44x44px；检查 carousel、player、comparison、Cookie、订阅、聊天和 sticky CTA 的叠加。",
+            "软键盘、safe area、长文本和错误状态下行动与当前字段仍可达。"
+          ],
+          "constraints": [
+            "禁止页面级横向溢出、被裁切的弹层、只剩接受按钮的 Cookie 层和覆盖核心内容的固定控件。",
+            "不把桌面背景、规格表或产品 rail 直接缩小为不可读内容。"
+          ]
+        }
+      },
+      "identity_boundary": {
+        "reference_only": false,
+        "must_not_copy": [
+          "DJI、Tesla、NASA、Sony 或其他品牌的标志、字体文件、产品图、科研影像、视频、界面、品牌口号和标志性构图",
+          "未经来源确认的产品能力、规格、性能、价格、客户、研究结论、安全、合规、环境影响和可用性",
+          "用假 dashboard、假终端、假代码、假指标、假客户或生成媒体伪装成产品和研究证据"
+        ],
+        "production_rule": "先确定科技对象、页面任务、证明方式、来源、状态、限制和采用路径，再选择 Physical Product、Consumer Product Family、Public Science、Corporate Portfolio 或 Operational Proof 方向并生成原创视觉 token；科技感来自可检查的对象与因果链，不来自固定深色蓝紫模板。"
+      }
+    },
+    "selected_variant": null,
+    "quantitative": {
+      "id": null,
+      "label": null,
+      "selection": null,
+      "path": null,
+      "tokens": null,
+      "basis": null,
+      "selection_guidance": null
+    }
+  },
+  "page": {
+    "deliverable": "website",
+    "page_context": "website",
+    "design_target": "web",
+    "product_domain": "healthcare",
+    "domain_overlay": "healthcare",
+    "domain_requirements": [
+      "医疗可信",
+      "适用范围和风险提示",
+      "服务/产品边界",
+      "隐私、无障碍和紧急去向"
+    ],
+    "product_scope": "dietary-supplements-wholesale-oem-odm",
+    "page_task": "corporate",
+    "audience": "partner",
+    "primary_action": "request-quote",
+    "trust_strategy": "institutional-trust",
+    "media_strategy": "type-led",
+    "motion_level": "restrained",
+    "content_density": "medium",
+    "locale": "en"
+  },
+  "domain": {
+    "id": "healthcare",
+    "requirements": [
+      "医疗可信",
+      "适用范围和风险提示",
+      "服务/产品边界",
+      "隐私、无障碍和紧急去向"
+    ]
+  },
+  "composition": {
+    "route": null,
+    "outline": [],
+    "loaded": false
+  },
+  "media": {
+    "mode": "disabled",
+    "provider": null,
+    "state": "disabled",
+    "trigger": "never",
+    "provenance": null,
+    "supplied_assets": [],
+    "runtime_status": "not-requested"
+  },
+  "references": {
+    "catalog": null,
+    "trace": null
+  },
+  "downstream_capabilities": [
+    {
+      "legacy_skill": "framed-grid-layout",
+      "capability": "layout-systems/framed-grid-layout",
+      "path": "assets/capabilities/framed-grid-layout/CAPABILITY.md",
+      "responsibility": "清楚分隔机构信息、来源、服务和行动",
+      "reason": "trust_strategy=institutional-trust"
+    }
+  ],
+  "validation_plan": [
+    "visual",
+    "responsive",
+    "interaction",
+    "accessibility"
+  ],
+  "load_plan": {
+    "loaded": [
+      "zili-nutrition-site/.design-suite/route.json",
+      "/Users/qidapa/Library/Application Support/qianfan-desktop-app/qianfan_desk_xdg/global/data/plugins/design-suite-router/skills/design-style-core/references/preset-index.json",
+      "/Users/qidapa/Library/Application Support/qianfan-desktop-app/qianfan_desk_xdg/global/data/plugins/design-suite-router/skills/design-style-core/references/presets/technology-evidence-system/preset.json",
+      "/Users/qidapa/Library/Application Support/qianfan-desktop-app/qianfan_desk_xdg/global/data/plugins/design-suite-router/skills/design-style-core/references/presets/technology-evidence-system/PROMPT.md"
+    ],
+    "parallelizable": [
+      "visual-contract",
+      "domain-requirements",
+      "page-composition"
+    ],
+    "deferred": [
+      "DESIGN.md",
+      "evidence.json",
+      "references/research/*.json"
+    ]
+  }
+}

@@ -1,0 +1,358 @@
+{
+  "required_viewports": [
+    {
+      "id": "320",
+      "width": 320,
+      "height": 568
+    },
+    {
+      "id": "390",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "id": "768",
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "id": "1440",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "1920",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": "2560",
+      "width": 2560,
+      "height": 1080
+    }
+  ],
+  "viewports": [
+    {
+      "id": "320",
+      "width": 320,
+      "height": 568,
+      "client_width": 305,
+      "scroll_width": 305,
+      "console_errors": 0,
+      "console_warnings": 0,
+      "image_count": 0,
+      "loaded_images": 0,
+      "probes": {
+        "nav-brand": {
+          "left": 16,
+          "right": 240.3125,
+          "width": 224.3125
+        },
+        "header-inner": {
+          "left": 0,
+          "right": 305,
+          "width": 305
+        },
+        "hero": {
+          "left": 0,
+          "right": 305,
+          "width": 305
+        },
+        "product-grid": {
+          "left": 16,
+          "right": 289,
+          "width": 273
+        },
+        "steps": {
+          "left": 16,
+          "right": 289,
+          "width": 273
+        },
+        "contact-form": {
+          "left": 41,
+          "right": 264,
+          "width": 223
+        },
+        "contact-panel": {
+          "left": 17,
+          "right": 288,
+          "width": 271
+        }
+      }
+    },
+    {
+      "id": "390",
+      "width": 390,
+      "height": 844,
+      "client_width": 375,
+      "scroll_width": 375,
+      "console_errors": 0,
+      "console_warnings": 0,
+      "image_count": 0,
+      "loaded_images": 0,
+      "probes": {
+        "nav-brand": {
+          "left": 16,
+          "right": 304.921875,
+          "width": 288.921875
+        },
+        "header-inner": {
+          "left": 0,
+          "right": 375,
+          "width": 375
+        },
+        "hero": {
+          "left": 0,
+          "right": 375,
+          "width": 375
+        },
+        "product-grid": {
+          "left": 16,
+          "right": 359,
+          "width": 343
+        },
+        "steps": {
+          "left": 16,
+          "right": 359,
+          "width": 343
+        },
+        "contact-form": {
+          "left": 41,
+          "right": 334,
+          "width": 293
+        },
+        "contact-panel": {
+          "left": 17,
+          "right": 358,
+          "width": 341
+        }
+      }
+    },
+    {
+      "id": "768",
+      "width": 768,
+      "height": 1024,
+      "client_width": 753,
+      "scroll_width": 753,
+      "console_errors": 0,
+      "console_warnings": 0,
+      "image_count": 0,
+      "loaded_images": 0,
+      "probes": {
+        "nav-brand": {
+          "left": 16,
+          "right": 376.015625,
+          "width": 360.015625
+        },
+        "header-inner": {
+          "left": 0,
+          "right": 753,
+          "width": 753
+        },
+        "hero": {
+          "left": 0,
+          "right": 753,
+          "width": 753
+        },
+        "product-grid": {
+          "left": 16,
+          "right": 737,
+          "width": 721
+        },
+        "steps": {
+          "left": 16,
+          "right": 737,
+          "width": 721
+        },
+        "contact-form": {
+          "left": 49,
+          "right": 704,
+          "width": 655
+        },
+        "contact-panel": {
+          "left": 17,
+          "right": 736,
+          "width": 719
+        }
+      }
+    },
+    {
+      "id": "1440",
+      "width": 1440,
+      "height": 1000,
+      "client_width": 1425,
+      "scroll_width": 1425,
+      "console_errors": 0,
+      "console_warnings": 0,
+      "image_count": 0,
+      "loaded_images": 0,
+      "probes": {
+        "nav-brand": {
+          "left": 136.5,
+          "right": 496.515625,
+          "width": 360.015625
+        },
+        "header-inner": {
+          "left": 112.5,
+          "right": 1312.5,
+          "width": 1200
+        },
+        "hero": {
+          "left": 0,
+          "right": 1425,
+          "width": 1425
+        },
+        "product-grid": {
+          "left": 136.5,
+          "right": 1288.5,
+          "width": 1152
+        },
+        "steps": {
+          "left": 136.5,
+          "right": 1288.5,
+          "width": 1152
+        },
+        "contact-form": {
+          "left": 169.5,
+          "right": 794.890625,
+          "width": 625.390625
+        },
+        "contact-panel": {
+          "left": 827.890625,
+          "right": 1287.5,
+          "width": 459.609375
+        }
+      }
+    },
+    {
+      "id": "1920",
+      "width": 1920,
+      "height": 1080,
+      "client_width": 1905,
+      "scroll_width": 1905,
+      "console_errors": 0,
+      "console_warnings": 0,
+      "image_count": 0,
+      "loaded_images": 0,
+      "probes": {
+        "nav-brand": {
+          "left": 376.5,
+          "right": 736.515625,
+          "width": 360.015625
+        },
+        "header-inner": {
+          "left": 352.5,
+          "right": 1552.5,
+          "width": 1200
+        },
+        "hero": {
+          "left": 0,
+          "right": 1905,
+          "width": 1905
+        },
+        "product-grid": {
+          "left": 376.5,
+          "right": 1528.5,
+          "width": 1152
+        },
+        "steps": {
+          "left": 376.5,
+          "right": 1528.5,
+          "width": 1152
+        },
+        "contact-form": {
+          "left": 409.5,
+          "right": 1034.890625,
+          "width": 625.390625
+        },
+        "contact-panel": {
+          "left": 1067.890625,
+          "right": 1527.5,
+          "width": 459.609375
+        }
+      }
+    },
+    {
+      "id": "2560",
+      "width": 2560,
+      "height": 1080,
+      "client_width": 2545,
+      "scroll_width": 2545,
+      "console_errors": 0,
+      "console_warnings": 0,
+      "image_count": 0,
+      "loaded_images": 0,
+      "probes": {
+        "nav-brand": {
+          "left": 696.5,
+          "right": 1056.515625,
+          "width": 360.015625
+        },
+        "header-inner": {
+          "left": 672.5,
+          "right": 1872.5,
+          "width": 1200
+        },
+        "hero": {
+          "left": 0,
+          "right": 2545,
+          "width": 2545
+        },
+        "product-grid": {
+          "left": 696.5,
+          "right": 1848.5,
+          "width": 1152
+        },
+        "steps": {
+          "left": 696.5,
+          "right": 1848.5,
+          "width": 1152
+        },
+        "contact-form": {
+          "left": 729.5,
+          "right": 1354.890625,
+          "width": 625.390625
+        },
+        "contact-panel": {
+          "left": 1387.890625,
+          "right": 1847.5,
+          "width": 459.609375
+        }
+      }
+    }
+  ],
+  "probe_invariants": [
+    {
+      "probe": "contact-form",
+      "viewports": [
+        "320",
+        "390",
+        "768"
+      ],
+      "min_width": 210,
+      "max_shrink_px": 80
+    },
+    {
+      "probe": "nav-brand",
+      "viewports": [
+        "320",
+        "390",
+        "768",
+        "1440",
+        "1920",
+        "2560"
+      ],
+      "min_width": 120,
+      "max_shrink_px": 1
+    },
+    {
+      "probe": "product-grid",
+      "viewports": [
+        "320",
+        "390"
+      ],
+      "min_width": 220,
+      "max_shrink_px": 60
+    }
+  ]
+}

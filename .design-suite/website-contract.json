@@ -1,0 +1,157 @@
+{
+  "schema_version": "1.0.0",
+  "state": "sector-contract-ready",
+  "sector": "general",
+  "delivery_adapter": "static-export",
+  "delivery_format": "single-html",
+  "export_mode": "single-file",
+  "asset_policy": "inline-base64",
+  "data_source": "static",
+  "network_dependencies": [],
+  "navigation_mode": "same-document",
+  "source_brief": {
+    "path": "zili-nutrition-site/.design-suite/source.json",
+    "preserved": true,
+    "unresolved": [
+      "organization_name",
+      "locations",
+      "contacts",
+      "credentials",
+      "metrics",
+      "customers",
+      "pricing",
+      "dates",
+      "availability"
+    ]
+  },
+  "references": null,
+  "deliverable": "website",
+  "page_context": "website",
+  "design_target": "web",
+  "page": {
+    "product_domain": "healthcare",
+    "domain_overlay": "healthcare",
+    "domain_requirements": [
+      "医疗可信",
+      "适用范围和风险提示",
+      "服务/产品边界",
+      "隐私、无障碍和紧急去向"
+    ],
+    "style_family": "technology",
+    "style_label": "科技风",
+    "style_status": "existing",
+    "style_profile_id": "technology-evidence-system",
+    "product_scope": "dietary-supplements-wholesale-oem-odm",
+    "page_task": "corporate",
+    "content_archetype": null,
+    "audience": "partner",
+    "primary_action": "request-quote",
+    "trust_strategy": "institutional-trust",
+    "media_strategy": "type-led",
+    "motion_level": "restrained",
+    "content_density": "medium",
+    "locale": "en",
+    "composition_mode": null
+  },
+  "media": {
+    "generation_mode": "disabled",
+    "media_required": false,
+    "provider": null,
+    "supplied_assets": [],
+    "generated_assets": [],
+    "missing_assets": [],
+    "runtime_status": "not-needed"
+  },
+  "facts": {
+    "supplied": [
+      {"field": "services", "value": "dietary supplement wholesale, OEM and ODM contract manufacturing", "source": "user request"},
+      {"field": "target_markets", "value": ["Europe", "United States", "Southeast Asia"], "source": "user request"},
+      {"field": "language", "value": "English-only", "source": "user request"},
+      {"field": "site_purpose", "value": "B2B lead generation display site without online transactions", "source": "user request"},
+      {"field": "product_categorization", "value": "by dosage form (capsules, tablets, powders, gummies, softgels)", "source": "user request"},
+      {"field": "site_scale", "value": "standard corporate site with Home, About Us, Products, OEM/ODM Services, Contact Us", "source": "user request"}
+    ],
+    "unresolved": [
+      "organization_name",
+      "locations",
+      "contacts",
+      "credentials",
+      "metrics",
+      "customers",
+      "pricing",
+      "dates",
+      "availability"
+    ],
+    "creative_additions": [
+      {"field": "brand_name", "value": "Placeholder brand name marked as sample", "label": "concept decision, to be replaced by user"},
+      {"field": "sections", "value": "Home, About Us, Products, OEM/ODM Services, Contact Us as same-document sections", "label": "concept decision from confirmed site scale"}
+    ]
+  },
+  "design": {
+    "thesis": "B2B supplement buyers in Europe, the US and Southeast Asia need to verify that a contract manufacturer is credible, certified and capable before requesting a quote; the page shows the real object (dosage-form product lines and OEM/ODM process), then mechanism and capability evidence, then boundaries and next action (request a quote).",
+    "composition": {
+      "catalog": null,
+      "mode": null,
+      "path": null,
+      "section_contract_loaded": false
+    },
+    "first_viewport": "Institutional identity placeholder, literal offer (supplement wholesale and OEM/ODM manufacturing), primary action request-quote, next-section hint to product lines",
+    "sections": [
+      {"id": "home", "purpose": "Who we are and the literal offer", "proof": "placeholder institutional identity + coverage of three markets", "layout": "full-width hero band followed by framed-grid proof band", "media": "none (type-led)", "states": []},
+      {"id": "about", "purpose": "Why this manufacturer is credible", "proof": "capability dimensions with unresolved cert slots marked sample", "layout": "framed grid with labeled capability panels", "media": "none", "states": []},
+      {"id": "products", "purpose": "What can be produced and which dosage forms are offered", "proof": "dosage-form family grid with category labels", "layout": "product family band with repeatable product cards in framed grid", "media": "none (type-led icons)", "states": []},
+      {"id": "oem-odm", "purpose": "How outsourcing works from inquiry to delivery", "proof": "numbered process chain with scope and boundary statements", "layout": "mechanism explainer with numbered steps and framed evidence row", "media": "none", "states": []},
+      {"id": "contact", "purpose": "Next step for a partner", "proof": "request-quote form with validation states and privacy note", "layout": "framed contact band with condensed form", "media": "none", "states": ["error", "success", "privacy"]}
+    ],
+    "tokens": {
+      "canvas": "#ffffff",
+      "canvas_subtle": "#f5f6f8",
+      "canvas_inverse": "#08090b",
+      "text": "#16181d",
+      "text_muted": "#5f6672",
+      "text_inverse": "#ffffff",
+      "line": "#d9dde4",
+      "line_strong": "#8b93a1",
+      "action": "#1457d9",
+      "action_hover": "#0f47b7",
+      "focus": "#005fcc",
+      "info": "#1769aa",
+      "success": "#1f7a45",
+      "warning": "#9a5b00",
+      "danger": "#b42318",
+      "reading": "720px",
+      "content": "1200px",
+      "wide": "1440px",
+      "radius": "8px",
+      "spacing_scale": [4, 8, 12, 16, 24, 32, 48, 64, 80, 96]
+    },
+    "avoid": [
+      "fake dashboard or fake metrics",
+      "dark blue-purple gradient placeholder tech",
+      "particle / glass / glow decoration",
+      "invented certifications, customers, prices, deadlines",
+      "consumer-hardware composition applied to a B2B corporate site",
+      "page-level horizontal overflow on mobile"
+    ]
+  },
+  "responsive": {
+    "mobile_layout": "required",
+    "viewport_matrix": ["320x568", "390x844", "768x1024", "1440x1000", "1920x1080", "2560x1080"],
+    "container_invariants": [
+      "navigation brand + menu button inside viewport",
+      "contact form fields and actions inside viewport",
+      "process steps remain ordered and readable",
+      "product cards stack to single column without widening the page"
+    ],
+    "geometry_evidence": "path to measurements from the final served build"
+  },
+  "accessibility": {
+    "target": "WCAG 2.1 AA intent for a static marketing site",
+    "keyboard": "skip link, semantic headings and landmarks, visible focus, form fields keyboard reachable",
+    "focus": "2px canvas-separated outline then 2px solid focus color",
+    "reduced_motion": "settled static state with all content and actions available"
+  },
+  "downstream_capabilities": [
+    {"capability": "layout-systems/framed-grid-layout", "responsibility": "清楚分隔机构信息、来源、服务和行动"}
+  ]
+}
