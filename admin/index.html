@@ -66,13 +66,9 @@
   </div>
 
   <!-- Netlify Identity：GitHub backend 的官方认证入口 -->
-  <script>
-    // 在 Identity widget 加载前显式配置站点 API（自定义域名托管在 GitHub Pages 时必需）
-    window.netlifyIdentityConfig = {
-      APIUrl: 'https://aesthetic-marzipan-71d83e.netlify.app/.netlify/identity'
-    };
-  </script>
-  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <!-- 通过 data-netlify-identity-api-url 显式指向 Netlify 子域名（自定义域名托管在 GitHub Pages 时必需） -->
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"
+          data-netlify-identity-api-url="https://aesthetic-marzipan-71d83e.netlify.app/.netlify/identity"></script>
   <!-- Decap CMS 前端（本地 vendor，避免依赖 unpkg 加载） -->
   <script src="./decap-cms.js"></script>
   <script>
