@@ -1,1 +1,28 @@
-ewogICJleWVicm93IjogIlByb2R1Y3QgTGluZXMiLAogICJ0aXRsZSI6ICJGaXZlIERvc2FnZSBGb3JtcyBVbmRlciBPbmUgUm9vZiIsCiAgImxlYWQiOiAiRnJvbSBjYXBzdWxlcyB0byBndW1taWVzIOKAlCBjaG9vc2UgYSBmb3JtYXQgdGhhdCBmaXRzIHlvdXIgYnJhbmQsIG9yIGxldCB1cyByZWNvbW1lbmQgdGhlIHJpZ2h0IG9uZSBmb3IgeW91ciBmb3JtdWxhIGFuZCB0YXJnZXQgbWFya2V0LiIsCiAgIml0ZW1zIjogewogICAgIjAiOiB7CiAgICAgICJuYW1lIjogIkNhcHN1bGVzIiwKICAgICAgImRlc2MiOiAiVHdvLXBpZWNlIGFuZCBvbmUtcGllY2UgY2Fwc3VsZXMgZm9yIHBvd2RlcnMsIGdyYW51bGVzIGFuZCBvaWwtYmFzZWQgYWN0aXZlcy4iCiAgICB9LAogICAgIjEiOiB7CiAgICAgICJuYW1lIjogIlRhYmxldHMiLAogICAgICAiZGVzYyI6ICJDb2F0ZWQsIHVuY29hdGVkIGFuZCBlZmZlcnZlc2NlbnQgdGFibGV0cyB3aXRoIGZsZXhpYmxlIHJlbGVhc2UgcHJvZmlsZXMuIgogICAgfSwKICAgICIyIjogewogICAgICAibmFtZSI6ICJQb3dkZXJzIiwKICAgICAgImRlc2MiOiAiU3RpY2sgc2FjaGV0cywgamFycyBhbmQgdHVicyBmb3IgcHJvdGVpbiwgY29sbGFnZW4gYW5kIHdlbGxuZXNzIGJsZW5kcy4iCiAgICB9LAogICAgIjMiOiB7CiAgICAgICJuYW1lIjogIkd1bW1pZXMiLAogICAgICAiZGVzYyI6ICJGcnVpdC1mbGF2b3JlZCBndW1taWVzIHdpdGhvdXQgZ2VsYXRpbiAocGVjdGluLWJhc2VkKSBvciB3aXRoIGdlbGF0aW4uIgogICAgfSwKICAgICI0IjogewogICAgICAibmFtZSI6ICJTb2Z0Z2VscyIsCiAgICAgICJkZXNjIjogIkxpcGlkLXNvbHVibGUgYWN0aXZlcyBpbiBzdGFibGUsIGVhc3ktdG8tc3dhbGxvdyBzb2Z0Z2VsIGZvcm1hdHMuIgogICAgfQogIH0sCiAgIm5vdGUiOiAiU2FtcGxlIGxpbmVzIOKAlCByZXBsYWNlIHdpdGggY29uZmlybWVkIHByb2R1Y3QgcmFuZ2VzLCBwaG90b3MgYW5kIHNwZWNpZmljYXRpb25zIGJlZm9yZSBnby1saXZlLiIKfQo=
+{
+  "eyebrow": "Product Lines",
+  "title": "Five Dosage Forms Under One Roof",
+  "lead": "From capsules to gummies — choose a format that fits your brand, or let us recommend the right one for your formula and target market.",
+  "items": {
+    "0": {
+      "name": "Capsules",
+      "desc": "Two-piece and one-piece capsules for powders, granules and oil-based actives."
+    },
+    "1": {
+      "name": "Tablets",
+      "desc": "Coated, uncoated and effervescent tablets with flexible release profiles."
+    },
+    "2": {
+      "name": "Powders",
+      "desc": "Stick sachets, jars and tubs for protein, collagen and wellness blends."
+    },
+    "3": {
+      "name": "Gummies",
+      "desc": "Fruit-flavored gummies without gelatin (pectin-based) or with gelatin."
+    },
+    "4": {
+      "name": "Softgels",
+      "desc": "Lipid-soluble actives in stable, easy-to-swallow softgel formats."
+    }
+  },
+  "note": "Sample lines — replace with confirmed product ranges, photos and specifications before go-live."
+}

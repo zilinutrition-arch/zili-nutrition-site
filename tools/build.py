@@ -1,1 +1,87 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwojIC0qLSBjb2Rpbmc6IHV0Zi04IC0qLQoiIiIKQnVpbGQgdGhlIHNpdGUgZnJvbSBjb250ZW50IGRhdGEgZmlsZXMgKyB0ZW1wbGF0ZS4KClVzYWdlOgogIHB5dGhvbjMgdG9vbHMvYnVpbGQucHkgICAgICAgICAgICAjIHJlbmRlciB0ZW1wbGF0ZXMvaW5kZXguaHRtbCAtPiBpbmRleC5odG1sIChpbiBwbGFjZSkKICBweXRob24zIHRvb2xzL2J1aWxkLnB5IC0tY2hlY2sgICAgIyByZW5kZXIgdG8gc3Rkb3V0L3RlbXAgYW5kIHZlcmlmeSBieXRlLWlkZW50aWNhbCB0byBpbmRleC5odG1sCiAgcHl0aG9uMyB0b29scy9idWlsZC5weSAtLW91dCBGSUxFICMgd3JpdGUgcmVuZGVyZWQgb3V0cHV0IHRvIEZJTEUKClBsYWNlaG9sZGVyIHN5bnRheCBpbiB0aGUgdGVtcGxhdGU6CiAge3tmaWxlLmtleS5wYXRofX0gICAgLT4gdGV4dDogdmFsdWUgaXMgSFRNTC1lc2NhcGVkIChzYWZlIGZvciB1c2VyIGlucHV0IGxpa2UgYCZgKQogIHt7e2ZpbGUua2V5LnBhdGh9fX0gIC0+IGh0bWw6IHZhbHVlIGluamVjdGVkIHZlcmJhdGltIChtdXN0IGNvbnRhaW4gdmFsaWQgbWFya3VwKQoiIiIKaW1wb3J0IGFyZ3BhcnNlCmltcG9ydCBodG1sIGFzIGh0bWxfbW9kCmltcG9ydCBqc29uCmltcG9ydCBwYXRobGliCmltcG9ydCByZQppbXBvcnQgc3lzCgpST09UID0gcGF0aGxpYi5QYXRoKF9fZmlsZV9fKS5yZXNvbHZlKCkucGFyZW50LnBhcmVudApUUEwgPSBST09UIC8gInRlbXBsYXRlcyIgLyAiaW5kZXguaHRtbCIKQ09OVEVOVF9ESVIgPSBST09UIC8gImNvbnRlbnQiClBIX1RFWFQgPSByZS5jb21waWxlKHIiXHtceyhbYS16QS1aMC05Xy4tXSspXH1cfSIpClBIX0hUTUwgPSByZS5jb21waWxlKHIiXHtce1x7KFthLXpBLVowLTlfLi1dKylcfVx9XH0iKQoKCmRlZiBsb2FkX2NvbnRlbnQoKToKICAgIGRhdGEgPSB7fQogICAgZm9yIGYgaW4gc29ydGVkKENPTlRFTlRfRElSLmdsb2IoIiouanNvbiIpKToKICAgICAgICBkYXRhW2Yuc3RlbV0gPSBqc29uLmxvYWRzKGYucmVhZF90ZXh0KGVuY29kaW5nPSJ1dGYtOCIpKQogICAgcmV0dXJuIGRhdGEKCgpkZWYgbG9va3VwKGRhdGEsIGRvdHRlZCk6CiAgICBub2RlID0gZGF0YQogICAgZm9yIHBhcnQgaW4gZG90dGVkLnNwbGl0KCIuIik6CiAgICAgICAgaWYgbm90IGlzaW5zdGFuY2Uobm9kZSwgZGljdCkgb3IgcGFydCBub3QgaW4gbm9kZToKICAgICAgICAgICAgcmFpc2UgS2V5RXJyb3IoZiJtaXNzaW5nIGNvbnRlbnQga2V5OiB7ZG90dGVkfSIpCiAgICAgICAgbm9kZSA9IG5vZGVbcGFydF0KICAgIHJldHVybiBub2RlCgoKZGVmIHJlbmRlcihkYXRhKToKICAgIHRwbCA9IFRQTC5yZWFkX3RleHQoZW5jb2Rpbmc9InV0Zi04IikKCiAgICAjIGh0bWwgcGxhY2Vob2xkZXJzIGZpcnN0ICh2ZXJiYXRpbSksIHRoZW4gdGV4dCBwbGFjZWhvbGRlcnMgKGVzY2FwZWQpCiAgICBkZWYgcmVwbF9odG1sKG0pOgogICAgICAgIHJldHVybiBzdHIobG9va3VwKGRhdGEsIG0uZ3JvdXAoMSkpKQoKICAgIGRlZiByZXBsX3RleHQobSk6CiAgICAgICAgcmV0dXJuIGh0bWxfbW9kLmVzY2FwZShzdHIobG9va3VwKGRhdGEsIG0uZ3JvdXAoMSkpKSwgcXVvdGU9RmFsc2UpCgogICAgb3V0LCBuX2h0bWwgPSBQSF9IVE1MLnN1Ym4ocmVwbF9odG1sLCB0cGwpCiAgICBvdXQsIG5fdGV4dCA9IFBIX1RFWFQuc3VibihyZXBsX3RleHQsIG91dCkKICAgIHJldHVybiBvdXQsIG5faHRtbCArIG5fdGV4dAoKCmRlZiBtYWluKCk6CiAgICBhcCA9IGFyZ3BhcnNlLkFyZ3VtZW50UGFyc2VyKCkKICAgIGFwLmFkZF9hcmd1bWVudCgiLS1jaGVjayIsIGFjdGlvbj0ic3RvcmVfdHJ1ZSIsCiAgICAgICAgICAgICAgICAgICAgaGVscD0icmVuZGVyIHRvIG1lbW9yeSBhbmQgdmVyaWZ5IGJ5dGUtaWRlbnRpdHkgd2l0aCBpbmRleC5odG1sIikKICAgIGFwLmFkZF9hcmd1bWVudCgiLS1vdXQiLCB0eXBlPXN0ciwgZGVmYXVsdD1Ob25lLAogICAgICAgICAgICAgICAgICAgIGhlbHA9IndyaXRlIHJlbmRlcmVkIG91dHB1dCB0byB0aGlzIGZpbGUgKGRlZmF1bHQ6IFJPT1QvaW5kZXguaHRtbCkiKQogICAgYXJncyA9IGFwLnBhcnNlX2FyZ3MoKQoKICAgIGRhdGEgPSBsb2FkX2NvbnRlbnQoKQogICAgb3V0LCBuID0gcmVuZGVyKGRhdGEpCiAgICBwcmludChmInJlbmRlcmVkIHtufSBwbGFjZWhvbGRlcnMiKQoKICAgIGlmIGFyZ3MuY2hlY2s6CiAgICAgICAgY3VycmVudCA9IChST09UIC8gImluZGV4Lmh0bWwiKS5yZWFkX2J5dGVzKCkKICAgICAgICBpZiBvdXQuZW5jb2RlKCJ1dGYtOCIpID09IGN1cnJlbnQ6CiAgICAgICAgICAgIHByaW50KCJDSEVDSyBQQVNTRUQ6IHJlbmRlcmVkIG91dHB1dCBpcyBieXRlLWlkZW50aWNhbCB0byBpbmRleC5odG1sIikKICAgICAgICBlbHNlOgogICAgICAgICAgICBwcmludCgiQ0hFQ0sgRkFJTEVEOiByZW5kZXJlZCBvdXRwdXQgZGlmZmVycyBmcm9tIGluZGV4Lmh0bWwiLCBmaWxlPXN5cy5zdGRlcnIpCiAgICAgICAgICAgIHN5cy5leGl0KDEpCiAgICAgICAgcmV0dXJuCgogICAgdGFyZ2V0ID0gcGF0aGxpYi5QYXRoKGFyZ3Mub3V0KSBpZiBhcmdzLm91dCBlbHNlIFJPT1QgLyAiaW5kZXguaHRtbCIKICAgIHRhcmdldC53cml0ZV90ZXh0KG91dCwgZW5jb2Rpbmc9InV0Zi04IikKICAgIHByaW50KGYid3JpdHRlbjoge3RhcmdldH0iKQoKCmlmIF9fbmFtZV9fID09ICJfX21haW5fXyI6CiAgICBtYWluKCk=
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Build the site from content data files + template.
+
+Usage:
+  python3 tools/build.py            # render templates/index.html -> index.html (in place)
+  python3 tools/build.py --check    # render to stdout/temp and verify byte-identical to index.html
+  python3 tools/build.py --out FILE # write rendered output to FILE
+
+Placeholder syntax in the template:
+  {{file.key.path}}    -> text: value is HTML-escaped (safe for user input like `&`)
+  {{{file.key.path}}}  -> html: value injected verbatim (must contain valid markup)
+"""
+import argparse
+import html as html_mod
+import json
+import pathlib
+import re
+import sys
+
+ROOT = pathlib.Path(__file__).resolve().parent.parent
+TPL = ROOT / "templates" / "index.html"
+CONTENT_DIR = ROOT / "content"
+PH_TEXT = re.compile(r"\{\{([a-zA-Z0-9_.-]+)\}\}")
+PH_HTML = re.compile(r"\{\{\{([a-zA-Z0-9_.-]+)\}\}\}")
+
+
+def load_content():
+    data = {}
+    for f in sorted(CONTENT_DIR.glob("*.json")):
+        data[f.stem] = json.loads(f.read_text(encoding="utf-8"))
+    return data
+
+
+def lookup(data, dotted):
+    node = data
+    for part in dotted.split("."):
+        if not isinstance(node, dict) or part not in node:
+            raise KeyError(f"missing content key: {dotted}")
+        node = node[part]
+    return node
+
+
+def render(data):
+    tpl = TPL.read_text(encoding="utf-8")
+
+    # html placeholders first (verbatim), then text placeholders (escaped)
+    def repl_html(m):
+        return str(lookup(data, m.group(1)))
+
+    def repl_text(m):
+        return html_mod.escape(str(lookup(data, m.group(1))), quote=False)
+
+    out, n_html = PH_HTML.subn(repl_html, tpl)
+    out, n_text = PH_TEXT.subn(repl_text, out)
+    return out, n_html + n_text
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--check", action="store_true",
+                    help="render to memory and verify byte-identity with index.html")
+    ap.add_argument("--out", type=str, default=None,
+                    help="write rendered output to this file (default: ROOT/index.html)")
+    args = ap.parse_args()
+
+    data = load_content()
+    out, n = render(data)
+    print(f"rendered {n} placeholders")
+
+    if args.check:
+        current = (ROOT / "index.html").read_bytes()
+        if out.encode("utf-8") == current:
+            print("CHECK PASSED: rendered output is byte-identical to index.html")
+        else:
+            print("CHECK FAILED: rendered output differs from index.html", file=sys.stderr)
+            sys.exit(1)
+        return
+
+    target = pathlib.Path(args.out) if args.out else ROOT / "index.html"
+    target.write_text(out, encoding="utf-8")
+    print(f"written: {target}")
+
+
+if __name__ == "__main__":
+    main()

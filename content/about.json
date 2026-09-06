@@ -1,1 +1,24 @@
-ewogICJleWVicm93IjogIkFib3V0IFVzIiwKICAidGl0bGUiOiAiQSBNYW51ZmFjdHVyaW5nIFBhcnRuZXIsIE5vdCBKdXN0IGEgU3VwcGxpZXIiLAogICJsZWFkIjogIlNhbXBsZSBjb21wYW55IHN0b3J5LiBSZXBsYWNlIHdpdGggeW91ciByZWFsIGZvdW5kaW5nIHN0b3J5LCBmYWNpbGl0eSBkZXRhaWxzIGFuZCB0ZWFtIGJhY2tncm91bmQgYmVmb3JlIHB1Ymxpc2hpbmcuIiwKICAic3RvcnlfaGVhZGVyIjogIlppbGkgTnV0cml0aW9uIHBvc2l0aW9ucyBpdHNlbGYgYXMgYSBjb250cmFjdCBtYW51ZmFjdHVyZXIgZm9yIGRpZXRhcnkgc3VwcGxlbWVudHM6IHByaXZhdGUtbGFiZWwgcHJvZHVjdGlvbiwgZm9ybXVsYSBkZXZlbG9wbWVudCBhbmQgT0VNIHN1cHBvcnQgYWNyb3NzIHRocmVlIHJlZ2lvbnMg4oCUIEV1cm9wZSwgdGhlIFVuaXRlZCBTdGF0ZXMgYW5kIFNvdXRoZWFzdCBBc2lhLiBUaGlzIHBhcmFncmFwaCBpcyBwbGFjZWhvbGRlciBjb3B5IHRoYXQgbXVzdCBiZSByZXdyaXR0ZW4gd2l0aCB0aGUgY29tcGFueSdzIHJlYWwgaGlzdG9yeSwgbWlzc2lvbiBhbmQgZXZpZGVuY2UuIiwKICAiY2VsbHMiOiB7CiAgICAiMCI6IHsKICAgICAgInRpdGxlIjogIlImRCAmIEZvcm11bGF0aW9uIiwKICAgICAgImRlc2MiOiAiSW4taG91c2UgZGV2ZWxvcG1lbnQgdGVhbSBjb3ZlcmluZyBuZXcgZm9ybXVsYXMsIGRvc2FnZS1mb3JtIHNlbGVjdGlvbiwgZmxhdm9yIG1hc2tpbmcgYW5kIHN0YWJpbGl0eSBwcm9ncmFtcy4iCiAgICB9LAogICAgIjEiOiB7CiAgICAgICJ0aXRsZSI6ICJQcm9kdWN0aW9uIENhcGFjaXR5IiwKICAgICAgImRlc2MiOiAiQmxlbmRpbmcsIGVuY2Fwc3VsYXRpb24sIHRhYmxldGluZyBhbmQgcGFja2FnaW5nIGxpbmVzIHdpdGggYmF0Y2ggcmVjb3JkcyBhbmQgdHJhY2VhYmlsaXR5LiAoQWRkIHJlYWwgY2FwYWNpdHkgZmlndXJlcy4pIgogICAgfSwKICAgICIyIjogewogICAgICAidGl0bGUiOiAiUXVhbGl0eSBBc3N1cmFuY2UiLAogICAgICAiZGVzYyI6ICJSYXcgbWF0ZXJpYWwgcmVsZWFzZSwgaW4tcHJvY2VzcyBtb25pdG9yaW5nLCBmaW5pc2hlZCBnb29kcyB0ZXN0aW5nIGFuZCByZXRhaW5lZCBzYW1wbGVzLiAoQWRkIHJlYWwgbGFiIGluZm8uKSIKICAgIH0sCiAgICAiMyI6IHsKICAgICAgInRpdGxlIjogIlN1cHBseSBDaGFpbiIsCiAgICAgICJkZXNjIjogIlF1YWxpZmllZCByYXcgbWF0ZXJpYWwgc3VwcGxpZXJzLCB0cmFuc3BhcmVudCBzb3VyY2luZyBhbmQgZXhwb3J0IGRvY3VtZW50YXRpb24gc3VwcG9ydC4gKEFkZCByZWFsIHN1cHBsaWVyIHBvbGljeS4pIgogICAgfQogIH0KfQo=
+{
+  "eyebrow": "About Us",
+  "title": "A Manufacturing Partner, Not Just a Supplier",
+  "lead": "Sample company story. Replace with your real founding story, facility details and team background before publishing.",
+  "story_header": "Zili Nutrition positions itself as a contract manufacturer for dietary supplements: private-label production, formula development and OEM support across three regions — Europe, the United States and Southeast Asia. This paragraph is placeholder copy that must be rewritten with the company's real history, mission and evidence.",
+  "cells": {
+    "0": {
+      "title": "R&D & Formulation",
+      "desc": "In-house development team covering new formulas, dosage-form selection, flavor masking and stability programs."
+    },
+    "1": {
+      "title": "Production Capacity",
+      "desc": "Blending, encapsulation, tableting and packaging lines with batch records and traceability. (Add real capacity figures.)"
+    },
+    "2": {
+      "title": "Quality Assurance",
+      "desc": "Raw material release, in-process monitoring, finished goods testing and retained samples. (Add real lab info.)"
+    },
+    "3": {
+      "title": "Supply Chain",
+      "desc": "Qualified raw material suppliers, transparent sourcing and export documentation support. (Add real supplier policy.)"
+    }
+  }
+}

@@ -1,1 +1,27 @@
-ewogICJleWVicm93IjogIldoeSBQYXJ0bmVycyBDaG9vc2UgVXMgKFNhbXBsZSkiLAogICJ0aXRsZSI6ICJCdWlsdCBmb3IgSW5zdGl0dXRpb25hbCBUcnVzdCIsCiAgImxlYWQiOiAiU2FtcGxlIGNhcGFiaWxpdHkgZGltZW5zaW9ucyDigJQgcmVwbGFjZSBwZXJjZW50YWdlcywgY2VydGlmaWNhdGlvbiBudW1iZXJzIGFuZCBjbGllbnQgcmVmZXJlbmNlcyB3aXRoIHZlcmlmaWVkIGV2aWRlbmNlIG9ubHkuIiwKICAiZmVhdHVyZXMiOiB7CiAgICAiMCI6IHsKICAgICAgInRpdGxlIjogIkRldmVsb3BtZW50IExhYiIsCiAgICAgICJkZXNjIjogIkluLWhvdXNlIGZvcm11bGF0aW9uIGFuZCBzdGFiaWxpdHkgdGVzdGluZyB0byBkZXZlbG9wLCBzY2FsZSBhbmQgZG9jdW1lbnQgeW91ciBwcm9kdWN0LiIKICAgIH0sCiAgICAiMSI6IHsKICAgICAgInRpdGxlIjogIlF1YWxpdHkgQ29udHJvbCIsCiAgICAgICJkZXNjIjogIlJhdyBtYXRlcmlhbCwgaW4tcHJvY2VzcyBhbmQgZmluaXNoZWQtcHJvZHVjdCBjaGVja3MgYWdhaW5zdCB5b3VyIGFncmVlZCBzcGVjaWZpY2F0aW9uLiIKICAgIH0sCiAgICAiMiI6IHsKICAgICAgInRpdGxlIjogIlJlZ3VsYXRvcnkgJiBMYWJlbGluZyIsCiAgICAgICJkZXNjIjogIkxhYmVsIHRleHQsIGNsYWltcyBhbmQgY29tcGxpYW5jZSByZXZpZXcgc3VwcG9ydCBmb3IgeW91ciB0YXJnZXQgbWFya2V0cy4iCiAgICB9LAogICAgIjMiOiB7CiAgICAgICJ0aXRsZSI6ICJFeHBvcnQgJiBMb2dpc3RpY3MiLAogICAgICAiZGVzYyI6ICJQYWNraW5nLCBkb2N1bWVudGF0aW9uIGFuZCBzaGlwcGluZyBjb29yZGluYXRpb24gZm9yIGVhY2ggZGVzdGluYXRpb24gbWFya2V0LiIKICAgIH0KICB9LAogICJjcmVkZW50aWFscyI6IHsKICAgICJ0aXRsZSI6ICJDcmVkZW50aWFscyDigJQgdG8gYmUgcHJvdmlkZWQgKFNhbXBsZSkiLAogICAgInRleHRfaHRtbCI6ICJGYWNpbGl0eSBjZXJ0aWZpY2F0aW9ucywgYXVkaXQgcmVwb3J0cywgdGVzdCByZWNvcmRzIGFuZCBjbGllbnQgcmVmZXJlbmNlcyBhcmUgaW50ZW50aW9uYWwgcGxhY2Vob2xkZXJzIGluIHRoaXMgZGVtby4gQ29uZmlybSBhbmQgcHVibGlzaCBvbmx5IHZlcmlmaWVkIGNyZWRlbnRpYWxzOiAiCiAgfQp9Cg==
+{
+  "eyebrow": "Why Partners Choose Us (Sample)",
+  "title": "Built for Institutional Trust",
+  "lead": "Sample capability dimensions — replace percentages, certification numbers and client references with verified evidence only.",
+  "features": {
+    "0": {
+      "title": "Development Lab",
+      "desc": "In-house formulation and stability testing to develop, scale and document your product."
+    },
+    "1": {
+      "title": "Quality Control",
+      "desc": "Raw material, in-process and finished-product checks against your agreed specification."
+    },
+    "2": {
+      "title": "Regulatory & Labeling",
+      "desc": "Label text, claims and compliance review support for your target markets."
+    },
+    "3": {
+      "title": "Export & Logistics",
+      "desc": "Packing, documentation and shipping coordination for each destination market."
+    }
+  },
+  "credentials": {
+    "title": "Credentials — to be provided (Sample)",
+    "text_html": "Facility certifications, audit reports, test records and client references are intentional placeholders in this demo. Confirm and publish only verified credentials: "
+  }
+}

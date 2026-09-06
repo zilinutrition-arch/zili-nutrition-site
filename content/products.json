@@ -1,1 +1,28 @@
-ewogICJleWVicm93IjogIlByb2R1Y3RzIiwKICAidGl0bGUiOiAiU3VwcGxlbWVudCBDYXRlZ29yaWVzICYgRm9ybWF0cyIsCiAgImxlYWQiOiAiU2FtcGxlIGNhdGVnb3J5IG1hcCBvbmx5IOKAlCBmaW5hbCBwcm9kdWN0IG1hdHJpeCwgc3BlY2lmaWNhdGlvbnMsIHBob3RvcyBhbmQgY2xhaW1zIG11c3QgYmUgY29uZmlybWVkIHdpdGggdGhlIGNvbXBhbnkgYmVmb3JlIGdvLWxpdmUuIiwKICAiY2F0ZWdvcmllcyI6IHsKICAgICIwIjogewogICAgICAidGl0bGUiOiAiUHJvdGVpbiAmIFNwb3J0cyIsCiAgICAgICJkZXNjIjogIlByb3RlaW4gcG93ZGVycywgQkNBQS9FQUEsIHJlY292ZXJ5IGJsZW5kcyBhbmQgcHJlLXdvcmtvdXQgZm9ybWF0cy4iCiAgICB9LAogICAgIjEiOiB7CiAgICAgICJ0aXRsZSI6ICJCZWF1dHkgJiBDb2xsYWdlbiIsCiAgICAgICJkZXNjIjogIkNvbGxhZ2VuIHBlcHRpZGVzLCBoeWFsdXJvbmljIGFjaWQsIGJpb3RpbiBhbmQgYW50aW94aWRhbnQgYmxlbmRzLiIKICAgIH0sCiAgICAiMiI6IHsKICAgICAgInRpdGxlIjogIldlbGxuZXNzIEVzc2VudGlhbHMiLAogICAgICAiZGVzYyI6ICJNdWx0aXZpdGFtaW5zLCBtaW5lcmFscywgZmlzaCBvaWwvb21lZ2EgYW5kIGpvaW50LXN1cHBvcnQgZm9ybXVsYXMuIgogICAgfSwKICAgICIzIjogewogICAgICAidGl0bGUiOiAiSGVyYmFsICYgU3BlY2lhbHR5IiwKICAgICAgImRlc2MiOiAiQm90YW5pY2FsIGV4dHJhY3RzLCBkaWdlc3RpdmUgZW56eW1lcywgcHJvYmlvdGljcyBhbmQgc3BlY2lhbHR5IGFjdGl2ZXMuIgogICAgfQogIH0sCiAgImJvdW5kYXJ5IjogewogICAgInRpdGxlIjogIlByb2R1Y3Qgc2NvcGUgJiBib3VuZGFyeSIsCiAgICAicDFfYmVmb3JlIjogInNhbXBsZSIsCiAgICAicDIiOiAiQWxsIHByb2R1Y3QgY2xhaW1zLCBpbmdyZWRpZW50IGxpc3RzLCBkb3NhZ2UgaW5zdHJ1Y3Rpb25zIGFuZCBjb21wbGlhbmNlIHN0YXRlbWVudHMgc2hvd24gaW4gdGhpcyBkZW1vIG11c3QgYmUgcmV2aWV3ZWQgYnkgcXVhbGlmaWVkIHJlZ3VsYXRvcnkgc3RhZmYgYW5kIHRoZSBjb21wYW55IGJlZm9yZSBleHRlcm5hbCB1c2UuIgogIH0KfQo=
+{
+  "eyebrow": "Products",
+  "title": "Supplement Categories & Formats",
+  "lead": "Sample category map only — final product matrix, specifications, photos and claims must be confirmed with the company before go-live.",
+  "categories": {
+    "0": {
+      "title": "Protein & Sports",
+      "desc": "Protein powders, BCAA/EAA, recovery blends and pre-workout formats."
+    },
+    "1": {
+      "title": "Beauty & Collagen",
+      "desc": "Collagen peptides, hyaluronic acid, biotin and antioxidant blends."
+    },
+    "2": {
+      "title": "Wellness Essentials",
+      "desc": "Multivitamins, minerals, fish oil/omega and joint-support formulas."
+    },
+    "3": {
+      "title": "Herbal & Specialty",
+      "desc": "Botanical extracts, digestive enzymes, probiotics and specialty actives."
+    }
+  },
+  "boundary": {
+    "title": "Product scope & boundary",
+    "p1_before": "sample",
+    "p2": "All product claims, ingredient lists, dosage instructions and compliance statements shown in this demo must be reviewed by qualified regulatory staff and the company before external use."
+  }
+}

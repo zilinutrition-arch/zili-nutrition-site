@@ -1,1 +1,45 @@
-bmFtZTogQnVpbGQgc2l0ZSBmcm9tIGNvbnRlbnQKCiJvbiI6CiAgcHVzaDoKICAgIGJyYW5jaGVzOiBbbWFpbl0KICAgICMg5Y+q5Zyo5YaF5a655rqQ5Y+Y5pu05pe26Kem5Y+R77yb5p6E5bu65Lqn54mpIGluZGV4Lmh0bWwg55qE5o+Q5Lqk5ZueIG1haW4g5LiN5Zyo5q2k5YiX77yM5aSp54S26Ziy5b6q546vCiAgICBwYXRoczoKICAgICAgLSAiY29udGVudC8qKiIKICAgICAgLSAidGVtcGxhdGVzLyoqIgogICAgICAtICJ0b29scy8qKiIKCnBlcm1pc3Npb25zOgogIGNvbnRlbnRzOiB3cml0ZQoKam9iczoKICBidWlsZDoKICAgIHJ1bnMtb246IHVidW50dS1sYXRlc3QKICAgIHN0ZXBzOgogICAgICAtIG5hbWU6IENoZWNrb3V0CiAgICAgICAgdXNlczogYWN0aW9ucy9jaGVja291dEB2NAogICAgICAgIHdpdGg6CiAgICAgICAgICBmZXRjaC1kZXB0aDogMAoKICAgICAgLSBuYW1lOiBTZXQgdXAgUHl0aG9uCiAgICAgICAgdXNlczogYWN0aW9ucy9zZXR1cC1weXRob25AdjUKICAgICAgICB3aXRoOgogICAgICAgICAgcHl0aG9uLXZlcnNpb246ICIzLjEyIgoKICAgICAgLSBuYW1lOiBWYWxpZGF0ZSBhZG1pbiBjb25maWcueW1sCiAgICAgICAgcnVuOiBydWJ5IC1yeWFtbCAtZSAnWUFNTC5sb2FkX2ZpbGUoImFkbWluL2NvbmZpZy55bWwiKTsgcHV0cyAiY29uZmlnLnltbCBPSyInCgogICAgICAtIG5hbWU6IFJlYnVpbGQgaW5kZXguaHRtbCBmcm9tIHRlbXBsYXRlcyArIGNvbnRlbnQKICAgICAgICBydW46IHB5dGhvbjMgdG9vbHMvYnVpbGQucHkKCiAgICAgIC0gbmFtZTogQ29tbWl0IHJlYnVpbHQgaW5kZXguaHRtbCBiYWNrIHRvIG1haW4KICAgICAgICBydW46IHwKICAgICAgICAgIGdpdCBjb25maWcgdXNlci5uYW1lICJnaXRodWItYWN0aW9uc1tib3RdIgogICAgICAgICAgZ2l0IGNvbmZpZyB1c2VyLmVtYWlsICI0MTg5ODI4MitnaXRodWItYWN0aW9uc1tib3RdQHVzZXJzLm5vcmVwbHkuZ2l0aHViLmNvbSIKICAgICAgICAgIGdpdCBhZGQgaW5kZXguaHRtbAogICAgICAgICAgaWYgISBnaXQgZGlmZiAtLWNhY2hlZCAtLXF1aWV0OyB0aGVuCiAgICAgICAgICAgIGdpdCBjb21taXQgLW0gImJ1aWxkOiByZWJ1aWxkIGluZGV4Lmh0bWwgZnJvbSBjb250ZW50IgogICAgICAgICAgICBnaXQgcHVzaCBvcmlnaW4gbWFpbgogICAgICAgICAgZWxzZQogICAgICAgICAgICBlY2hvICJpbmRleC5odG1sIHVuY2hhbmdlZCwgbm90aGluZyB0byBjb21taXQiCiAgICAgICAgICBmaQ==
+name: Build site from content
+
+"on":
+  push:
+    branches: [main]
+    # 只在内容源变更时触发；构建产物 index.html 的提交回 main 不在此列，天然防循环
+    paths:
+      - "content/**"
+      - "templates/**"
+      - "tools/**"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate admin config.yml
+        run: ruby -ryaml -e 'YAML.load_file("admin/config.yml"); puts "config.yml OK"'
+
+      - name: Rebuild index.html from templates + content
+        run: python3 tools/build.py
+
+      - name: Commit rebuilt index.html back to main
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html
+          if ! git diff --cached --quiet; then
+            git commit -m "build: rebuild index.html from content"
+            git push origin main
+          else
+            echo "index.html unchanged, nothing to commit"
+          fi

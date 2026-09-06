@@ -1,1 +1,23 @@
-ewogICJoZXJvIjogewogICAgImV5ZWJyb3ciOiAiV2hvbGVzYWxlIMK3IE9FTSDCtyBPRE0iLAogICAgInRpdGxlMSI6ICJQcml2YXRlLUxhYmVsIERpZXRhcnkgU3VwcGxlbWVudHMsIiwKICAgICJ0aXRsZTIiOiAiQnVpbHQgZm9yIEdsb2JhbCBQYXJ0bmVycy4iLAogICAgImxlYWQiOiAiWmlsaSBOdXRyaXRpb24gZGV2ZWxvcHMgYW5kIHByb2R1Y2VzIHByaXZhdGUtbGFiZWwgc3VwcGxlbWVudHMg4oCUIGNhcHN1bGVzLCB0YWJsZXRzLCBwb3dkZXJzLCBndW1taWVzIGFuZCBzb2Z0Z2VscyDigJQgZm9yIHdob2xlc2FsZXJzIGFuZCBicmFuZHMgc2VsbGluZyBpbnRvIEV1cm9wZSwgdGhlIFVuaXRlZCBTdGF0ZXMgYW5kIFNvdXRoZWFzdCBBc2lhLiIsCiAgICAiY3RhX3NlY29uZGFyeSI6ICJWaWV3IFByb2R1Y3QgTGluZXMiLAogICAgInNhbXBsZV9ub3RlIjogIlNhbXBsZSBjb3B5IOKAlCByZXBsYWNlIHdpdGggdmVyaWZpZWQgYnJhbmQgcG9zaXRpb25pbmcgYW5kIGNyZWRlbnRpYWxzLiIsCiAgICAicHJvb2ZfdGl0bGUiOiAiQ292ZXJhZ2UgKFNhbXBsZSkiLAogICAgInByb29mMCI6IHsKICAgICAgInRpdGxlIjogIkV1cm9wZSIsCiAgICAgICJ0ZXh0IjogIldob2xlc2FsZSAmIHByaXZhdGUgbGFiZWwiCiAgICB9LAogICAgInByb29mMSI6IHsKICAgICAgInRpdGxlIjogIlVuaXRlZCBTdGF0ZXMiLAogICAgICAidGV4dCI6ICJPRU0gJiBPRE0gcHJvZ3JhbXMiCiAgICB9LAogICAgInByb29mMiI6IHsKICAgICAgInRpdGxlIjogIlNvdXRoZWFzdCBBc2lhIiwKICAgICAgInRleHQiOiAiUmVnaW9uYWwgZm9ybXVsYXRpb24gc3VwcG9ydCIKICAgIH0KICB9Cn0K
+{
+  "hero": {
+    "eyebrow": "Wholesale · OEM · ODM",
+    "title1": "Private-Label Dietary Supplements,",
+    "title2": "Built for Global Partners.",
+    "lead": "Zili Nutrition develops and produces private-label supplements — capsules, tablets, powders, gummies and softgels — for wholesalers and brands selling into Europe, the United States and Southeast Asia.",
+    "cta_secondary": "View Product Lines",
+    "sample_note": "Sample copy — replace with verified brand positioning and credentials.",
+    "proof_title": "Coverage (Sample)",
+    "proof0": {
+      "title": "Europe",
+      "text": "Wholesale & private label"
+    },
+    "proof1": {
+      "title": "United States",
+      "text": "OEM & ODM programs"
+    },
+    "proof2": {
+      "title": "Southeast Asia",
+      "text": "Regional formulation support"
+    }
+  }
+}

@@ -1,1 +1,53 @@
-ewogICJleWVicm93IjogIk9FTSAvIE9ETSBTZXJ2aWNlcyIsCiAgInRpdGxlIjogIkZyb20gQnJpZWYgdG8gRGVsaXZlcnksIE9uZSBQcm9jZXNzIiwKICAibGVhZCI6ICJTYW1wbGUgcHJvY2VzcyBmbG93LiBBY3R1YWwgdGltZWxpbmVzLCBkZWxpdmVyYWJsZXMgYW5kIG1pbGVzdG9uZXMgdG8gYmUgY29uZmlybWVkIHBlciBwcm9qZWN0LiIsCiAgInN0ZXBzIjogewogICAgIjAiOiB7CiAgICAgICJ0aXRsZSI6ICJJbnF1aXJ5ICYgQnJpZWYiLAogICAgICAiZGVzYyI6ICJTaGFyZSB5b3VyIHByb2R1Y3QgaWRlYSwgZm9ybXVsYSwgZ29hbHMgYW5kIHRhcmdldCBtYXJrZXQgd2l0aCBvdXIgdGVhbS4iCiAgICB9LAogICAgIjEiOiB7CiAgICAgICJ0aXRsZSI6ICJGZWFzaWJpbGl0eSAmIFByb3Bvc2FsIiwKICAgICAgImRlc2MiOiAiV2UgYXNzZXNzIHJhdyBtYXRlcmlhbHMsIGRvc2FnZSBmb3JtLCBjb3N0IGFuZCByZWd1bGF0b3J5IGZpdCwgdGhlbiBwcm9wb3NlIHNjb3BlLiIKICAgIH0sCiAgICAiMiI6IHsKICAgICAgInRpdGxlIjogIlNhbXBsZSBEZXZlbG9wbWVudCIsCiAgICAgICJkZXNjIjogIkxhYiBzYW1wbGVzIGFuZCBwcm90b3R5cGVzIGFyZSBkZXZlbG9wZWQgZm9yIHlvdXIgcmV2aWV3IGFuZCB0ZXN0aW5nLiIKICAgIH0sCiAgICAiMyI6IHsKICAgICAgInRpdGxlIjogIlF1b3RlICYgQWdyZWVtZW50IiwKICAgICAgImRlc2MiOiAiRmluYWwgcHJpY2luZywgTU9RLCB0ZXJtcyBhbmQgZG9jdW1lbnRhdGlvbiBhcmUgYWdyZWVkIGluIHdyaXRpbmcuIgogICAgfSwKICAgICI0IjogewogICAgICAidGl0bGUiOiAiUHJvZHVjdGlvbiIsCiAgICAgICJkZXNjIjogIk1hbnVmYWN0dXJpbmcgcnVucyB0byB5b3VyIGFwcHJvdmVkIHNwZWNpZmljYXRpb24gd2l0aCBiYXRjaCByZWNvcmRzLiIKICAgIH0sCiAgICAiNSI6IHsKICAgICAgInRpdGxlIjogIlF1YWxpdHkgQ29udHJvbCIsCiAgICAgICJkZXNjIjogIkluLXByb2Nlc3MgYW5kIGZpbmlzaGVkLXByb2R1Y3QgdGVzdGluZyBhZ2FpbnN0IHRoZSBhZ3JlZWQgc3BlYy4iCiAgICB9LAogICAgIjYiOiB7CiAgICAgICJ0aXRsZSI6ICJQYWNrYWdpbmcgJiBMYWJlbGluZyIsCiAgICAgICJkZXNjIjogIkN1c3RvbSBwYWNrYWdpbmcsIGxhYmVscyBhbmQgbGFuZ3VhZ2UgdmFyaWFudHMgcHJlcGFyZWQgZm9yIHlvdXIgbWFya2V0LiIKICAgIH0sCiAgICAiNyI6IHsKICAgICAgInRpdGxlIjogIkRlbGl2ZXJ5ICYgU3VwcG9ydCIsCiAgICAgICJkZXNjIjogIkV4cG9ydCBkb2N1bWVudGF0aW9uLCBzaGlwcGluZyBhbmQgcG9zdC1kZWxpdmVyeSBzdXBwb3J0LiIKICAgIH0KICB9LAogICJjZWxscyI6IHsKICAgICIwIjogewogICAgICAidGl0bGUiOiAiV2hhdCB3ZSBjYW4gZG8gKFNhbXBsZSkiLAogICAgICAiZGVzYyI6ICJDdXN0b20gZm9ybXVsYXMsIGRvc2FnZS1mb3JtIHNlbGVjdGlvbiwgZmxhdm9yL3BhY2thZ2luZyBkZXNpZ24sIGxhYmVsIHRleHQgZHJhZnRpbmcgYW5kIGV4cG9ydCBkb2N1bWVudCBzdXBwb3J0LiIKICAgIH0sCiAgICAiMSI6IHsKICAgICAgInRpdGxlIjogIldoYXQgd2UgZG9uJ3QgZG8iLAogICAgICAiZGVzYyI6ICJUaGlzIGRlbW8gZG9lcyBub3QgcHJvbWlzZSBkcnVnIG1hbnVmYWN0dXJpbmcsIG1lZGljYWwgY2xhaW1zLCBvciByZXRhaWwgY29uc3VtZXIgc2FsZXMuIEFkZCB0aGUgcmVhbCBzZXJ2aWNlIGJvdW5kYXJ5IHN0YXRlbWVudCBoZXJlLiIKICAgIH0sCiAgICAiMiI6IHsKICAgICAgInRpdGxlIjogIlNhbXBsZSBib3VuZGFyaWVzIiwKICAgICAgImRlc2MiOiAiTU9RLCBsZWFkIHRpbWUsIGNhcGFjaXR5IGFuZCBjZXJ0aWZpY2F0aW9ucyBtYXJrZWQgYXMgcGxhY2Vob2xkZXJzIOKAlCBjb25maXJtIHdpdGggdGhlIGNvbXBhbnkgZm9yIGFjY3VyYXRlIG51bWJlcnMuIgogICAgfQogIH0KfQo=
+{
+  "eyebrow": "OEM / ODM Services",
+  "title": "From Brief to Delivery, One Process",
+  "lead": "Sample process flow. Actual timelines, deliverables and milestones to be confirmed per project.",
+  "steps": {
+    "0": {
+      "title": "Inquiry & Brief",
+      "desc": "Share your product idea, formula, goals and target market with our team."
+    },
+    "1": {
+      "title": "Feasibility & Proposal",
+      "desc": "We assess raw materials, dosage form, cost and regulatory fit, then propose scope."
+    },
+    "2": {
+      "title": "Sample Development",
+      "desc": "Lab samples and prototypes are developed for your review and testing."
+    },
+    "3": {
+      "title": "Quote & Agreement",
+      "desc": "Final pricing, MOQ, terms and documentation are agreed in writing."
+    },
+    "4": {
+      "title": "Production",
+      "desc": "Manufacturing runs to your approved specification with batch records."
+    },
+    "5": {
+      "title": "Quality Control",
+      "desc": "In-process and finished-product testing against the agreed spec."
+    },
+    "6": {
+      "title": "Packaging & Labeling",
+      "desc": "Custom packaging, labels and language variants prepared for your market."
+    },
+    "7": {
+      "title": "Delivery & Support",
+      "desc": "Export documentation, shipping and post-delivery support."
+    }
+  },
+  "cells": {
+    "0": {
+      "title": "What we can do (Sample)",
+      "desc": "Custom formulas, dosage-form selection, flavor/packaging design, label text drafting and export document support."
+    },
+    "1": {
+      "title": "What we don't do",
+      "desc": "This demo does not promise drug manufacturing, medical claims, or retail consumer sales. Add the real service boundary statement here."
+    },
+    "2": {
+      "title": "Sample boundaries",
+      "desc": "MOQ, lead time, capacity and certifications marked as placeholders — confirm with the company for accurate numbers."
+    }
+  }
+}

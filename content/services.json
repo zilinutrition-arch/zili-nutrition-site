@@ -1,1 +1,22 @@
-ewogICJleWVicm93IjogIkhvdyBXZSBXb3JrIiwKICAidGl0bGUiOiAiVGhyZWUgV2F5cyB0byBQYXJ0bmVyIiwKICAibGVhZCI6ICJXaGV0aGVyIHlvdSBuZWVkIHJlYWR5LW1hZGUgZm9ybXVsYXMgdG8gcmVzZWxsIG9yIGEgZnVsbCBjdXN0b20gcHJvZHVjdCBidWlsdCBmcm9tIHNjcmF0Y2gsIHdlIGFkYXB0IHRoZSBzY29wZSB0byB5b3VyIGdvYWxzLiIsCiAgImNhcmRzIjogewogICAgIjAiOiB7CiAgICAgICJ0aXRsZSI6ICJXaG9sZXNhbGUiLAogICAgICAiZGVzYyI6ICJCdXkgb3VyIGV4aXN0aW5nIGNhdGFsb2cgb2YgcHJvdmVuIGZvcm11bGF0aW9ucyBhdCB3aG9sZXNhbGUgdGVybXMgZm9yIHlvdXIgZGlzdHJpYnV0aW9uIGNoYW5uZWxzIOKAlCB0aGUgZmFzdGVzdCByb3V0ZSB0byBtYXJrZXQuIiwKICAgICAgImxpbmsiOiAiQXNrIGZvciB0aGUgY2F0YWxvZyIKICAgIH0sCiAgICAiMSI6IHsKICAgICAgInRpdGxlIjogIk9FTSDigJQgWW91ciBGb3JtdWxhIiwKICAgICAgImRlc2MiOiAiQnJpbmcgeW91ciBvd24gZm9ybXVsYSBhbmQgd2UgbWFudWZhY3R1cmUsIHBhY2thZ2UgYW5kIGRlbGl2ZXIgaXQgdG8geW91ciBzcGVjaWZpY2F0aW9uLCB3aXRoIHRyYW5zcGFyZW50IFFDIGF0IGV2ZXJ5IHN0ZXAuIiwKICAgICAgImxpbmsiOiAiU2VlIHRoZSBwcm9jZXNzIgogICAgfSwKICAgICIyIjogewogICAgICAidGl0bGUiOiAiT0RNIOKAlCBXZSBEZXNpZ24gSXQiLAogICAgICAiZGVzYyI6ICJTaGFyZSB5b3VyIHBvc2l0aW9uaW5nIGFuZCB0YXJnZXQgbWFya2V0OyBvdXIgZGV2ZWxvcG1lbnQgdGVhbSBjcmVhdGVzIHRoZSBmb3JtdWxhLCBmbGF2b3IgYW5kIHBhY2thZ2luZyBjb25jZXB0IGZvciB5b3UuIiwKICAgICAgImxpbmsiOiAiU3RhcnQgYSBwcm9qZWN0IgogICAgfQogIH0KfQo=
+{
+  "eyebrow": "How We Work",
+  "title": "Three Ways to Partner",
+  "lead": "Whether you need ready-made formulas to resell or a full custom product built from scratch, we adapt the scope to your goals.",
+  "cards": {
+    "0": {
+      "title": "Wholesale",
+      "desc": "Buy our existing catalog of proven formulations at wholesale terms for your distribution channels — the fastest route to market.",
+      "link": "Ask for the catalog"
+    },
+    "1": {
+      "title": "OEM — Your Formula",
+      "desc": "Bring your own formula and we manufacture, package and deliver it to your specification, with transparent QC at every step.",
+      "link": "See the process"
+    },
+    "2": {
+      "title": "ODM — We Design It",
+      "desc": "Share your positioning and target market; our development team creates the formula, flavor and packaging concept for you.",
+      "link": "Start a project"
+    }
+  }
+}

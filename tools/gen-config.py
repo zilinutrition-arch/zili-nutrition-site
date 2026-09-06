@@ -1,1 +1,170 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwojIC0qLSBjb2Rpbmc6IHV0Zi04IC0qLQoiIiJHZW5lcmF0ZSBhZG1pbi9jb25maWcueW1sIGZvciBEZWNhcCBDTVMgZnJvbSBjb250ZW50LyouanNvbiBzdHJ1Y3R1cmUuCkZpZWxkIHN0cnVjdHVyZSBtaXJyb3JzIHRoZSBKU09OIGV4YWN0bHkgc28gRGVjYXAgbmV2ZXIgZHJvcHMga2V5cyBvbiBzYXZlLiIiIgppbXBvcnQganNvbgppbXBvcnQgcGF0aGxpYgoKUk9PVCA9IHBhdGhsaWIuUGF0aChfX2ZpbGVfXykucmVzb2x2ZSgpLnBhcmVudC5wYXJlbnQKQ09OVEVOVCA9IFJPT1QgLyAiY29udGVudCIKT1VUID0gUk9PVCAvICJhZG1pbiIgLyAiY29uZmlnLnltbCIKCiMgQ2hpbmVzZSBsYWJlbHM7IGtleSBuYW1lIGZhbGxiYWNrIGlzIHRoZSByYXcga2V5LgpMQUJFTFMgPSB7CiAgICAjIGdlbmVyaWMKICAgICJ0aXRsZSI6ICLmoIfpopggLyBUaXRsZSIsICJuYW1lIjogIuWQjeensCAvIE5hbWUiLCAiZGVzYyI6ICLmj4/ov7AgLyBEZXNjcmlwdGlvbiIsCiAgICAidGV4dCI6ICLmlofmnKwgLyBUZXh0IiwgImxlYWQiOiAi5a+86K+tIC8gTGVhZCIsICJub3RlIjogIuWkh+azqCAvIE5vdGUiLAogICAgInRhZ3MiOiAi5qCH562+IC8gVGFncyIsICJsaW5rIjogIumTvuaOpeaWh+WtlyAvIExpbmsgdGV4dCIsCiAgICAiZXllYnJvdyI6ICLmoI/nm67nnInmoIcgLyBFeWVicm93IiwKICAgICMgc2V0dGluZ3MKICAgICJzaXRlIjogIuermeeCuSIsICJtZXRhIjogIlNFTyDlhYPkv6Hmga8iLCAibmF2IjogIuWvvOiIqiIsICJmb290ZXIiOiAi6aG16ISaIiwKICAgICJicmFuZF9uYW1lIjogIuWTgeeJjOWQjSAvIEJyYW5kIiwgIm5hdl9ob21lIjogIuWvvOiIqi3pppbpobUiLCAibmF2X2Fib3V0IjogIuWvvOiIqi3lhbPkuo7miJHku6wiLAogICAgIm5hdl9wcm9kdWN0cyI6ICLlr7zoiKot5Lqn5ZOBIiwgIm5hdl9vZW0iOiAi5a+86IiqLU9FTS9PRE0iLCAibmF2X2NvbnRhY3QiOiAi5a+86IiqLeiBlOezuyIsCiAgICAiY3RhX3F1b3RlIjogIkNUQSDmjInpkq7mloflrZfvvIjor6Lku7fvvIkiLCAic2FtcGxlX3RhZyI6ICLnpLrkvovmoIfnrb7mloflrZciLAogICAgInNhbXBsZV9ub3RpY2UiOiAi56S65L6L5aOw5piO77yI5Yqg57KX6YOo5YiG77yJIiwgImZvb3Rlcl9kZXNjIjogIumhteiEmueugOS7iyIsCiAgICAiZm9vdGVyX3NpdGVfdGl0bGUiOiAi6aG16ISaLeermeeCueagh+mimCIsICJmb290ZXJfY29udGFjdF90aXRsZSI6ICLpobXohJot6IGU57O75qCH6aKYIiwKICAgICJmb290ZXJfY29weXJpZ2h0IjogIueJiOadg+W5tOS7vSIsICJmb290ZXJfY29tcGFueSI6ICLniYjmnYPlhazlj7jlkI0iLAogICAgImZvb3Rlcl9wcml2YWN5IjogIumhteiEmi3pmpDnp4Hpk77mjqUiLCAiZm9vdGVyX3Rlcm1zIjogIumhteiEmi3mnaHmrL7pk77mjqUiLAogICAgImZvb3Rlcl9hY2Nlc3NpYmlsaXR5IjogIumhteiEmi3ml6Dpmpznoo3pk77mjqUiLAogICAgIyBoZXJvCiAgICAiaGVybyI6ICLpppblsY8gSGVybyIsICJ0aXRsZTEiOiAi5Li75qCH6aKY77yI56ys5LiA6KGM77yJIiwgInRpdGxlMiI6ICLkuLvmoIfpopjvvIjnrKzkuozooYwsIOmrmOS6ru+8iSIsCiAgICAiY3RhX3NlY29uZGFyeSI6ICLmrKHmjInpkq7mloflrZciLCAic2FtcGxlX25vdGUiOiAi56S65L6L5rOo6K6wIiwKICAgICJwcm9vZl90aXRsZSI6ICLopobnm5bljLrln5/moIfpopgiLCAicHJvb2YwIjogIuimhuebluWMuuWfnyAxIiwgInByb29mMSI6ICLopobnm5bljLrln58gMiIsCiAgICAicHJvb2YyIjogIuimhuebluWMuuWfnyAzIiwgInRpdGxlX2tleSI6ICIiLCAidGV4dF9rZXkiOiAi5Ymv5paH5a2XIiwKICAgICMgcHJvZHVjdCBsaW5lcwogICAgInByb2R1Y3QtbGluZXMiOiAi5Lqn5ZOB57q/IiwgIml0ZW1zIjogIuWJguWei+WNoeeJh++8iOacgOWkmjXpobnvvIkiLCAiaXRlbSI6ICLliYLlnosiLAogICAgIyBzZXJ2aWNlcwogICAgInNlcnZpY2VzIjogIuWQiOS9nOaWueW8jyIsICJjYXJkcyI6ICLlkIjkvZzljaHniYciLCAiY2FyZCI6ICLmlrnlvI8iLAogICAgIyBjYXBhYmlsaXRpZXMKICAgICJjYXBhYmlsaXRpZXMiOiAi6IO95Yqb5LiO6LWE6LSoIiwgImZlYXR1cmVzIjogIuiDveWKm+mhuSIsICJmZWF0dXJlIjogIuiDveWKmyIsCiAgICAiY3JlZGVudGlhbHMiOiAi6LWE6LSo5aOw5piOIiwgInRleHRfaHRtbCI6ICLotYTotKjmraPmlofvvIjlj6/lkKvlvLrosIPmoIfnrb7vvIkiLAogICAgIyBtYXJrZXRzCiAgICAibWFya2V0cyI6ICLnm67moIfluILlnLoiLCAicmVnaW9ucyI6ICLljLrln5/liJfooagiLCAicmVnaW9uIjogIuWMuuWfnyIsCiAgICAibm90ZV9jb21wbGlhbmNlIjogIuWQiOinhOWkh+azqO+8iOavj+WMuuWfn++8iSIsICJub3RlX2xvZ2lzdGljcyI6ICLnianmtYHlpIfms6jvvIjmr4/ljLrln5/vvIkiLAogICAgIyBhYm91dAogICAgImFib3V0IjogIuWFs+S6juaIkeS7rCIsICJzdG9yeV9oZWFkZXIiOiAi5YWs5Y+45pWF5LqL5q2j5paHIiwgImNlbGxzIjogIuWbm+Wkp+adv+Wdl++8iFImRC/kuqfog70v6LSo5o6nL+S+m+W6lOmTvu+8iSIsCiAgICAiY2VsbCI6ICLmnb/lnZciLAogICAgIyBwcm9kdWN0cwogICAgInByb2R1Y3RzIjogIuS6p+WTgeWIhuexuyIsICJjYXRlZ29yaWVzIjogIuWIhuexu+WIl+ihqCIsICJjYXRlZ29yeSI6ICLliIbnsbsiLAogICAgImJvdW5kYXJ5IjogIui+ueeVjOWjsOaYjiIsICJwMV9iZWZvcmUiOiAi6L6555WM5aOw5piO56ys5LiA5q6177yI5ZCr56S65L6L5Yqg57KX77yJIiwKICAgICJwMiI6ICLovrnnlYzlo7DmmI7nrKzkuozmrrUiLAogICAgIyBvZW0KICAgICJvZW0iOiAiT0VNL09ETSDmnI3liqEiLCAic3RlcHMiOiAi5rWB56iL5q2l6aqk77yIOOatpe+8iSIsICJzdGVwIjogIuatpemqpCIsCiAgICAjIGNvbnRhY3QKICAgICJjb250YWN0IjogIuiBlOezu+ihqOWNlSIsICJmb3JtIjogIuihqOWNleiuvue9riIsICJkaXJlY3QiOiAi55u05o6l6IGU57O75pa55byPIiwKICAgICJuYW1lX2xhYmVsIjogIuWnk+WQjeagh+etviIsICJlbWFpbF9sYWJlbCI6ICLpgq7nrrHmoIfnrb4iLCAiY29tcGFueV9sYWJlbCI6ICLlhazlj7jmoIfnrb4iLAogICAgIm1hcmtldF9sYWJlbCI6ICLnm67moIfluILlnLrmoIfnrb4iLCAibWFya2V0X3BsYWNlaG9sZGVyIjogIuW4guWcuuWNoOS9jemAiemhuSIsCiAgICAibWFya2V0X2V1cm9wZSI6ICLpgInpobnvvJrmrKfmtLIiLCAibWFya2V0X3VzIjogIumAiemhue+8mue+juWbvSIsCiAgICAibWFya2V0X3NlYXNpYSI6ICLpgInpobnvvJrkuJzljZfkupoiLCAibWFya2V0X2dsb2JhbCI6ICLpgInpobnvvJrlhajnkIMv5YW25LuWIiwKICAgICJtZXNzYWdlX2xhYmVsIjogIueVmeiogOagh+etviIsICJtZXNzYWdlX3BsYWNlaG9sZGVyIjogIueVmeiogOWNoOS9jeaPkOekuiIsCiAgICAic3VibWl0IjogIuaPkOS6pOaMiemSriIsICJwcml2YWN5X25vdGUiOiAi6ZqQ56eB5aOw5piOIiwKICAgICJlbWFpbCI6ICLpgq7nrrEiLCAibG9jYXRpb24iOiAi5Zyw5Z2AIiwgInJlc3BvbnNlIjogIuWTjeW6lOaXtumXtCIsCiAgICAid2hhdHNhcHAiOiAiV2hhdHNBcHAiLCAid2Vic2l0ZSI6ICLlrpjnvZEiLCAid2Vic2l0ZV91cmwiOiAi5a6Y572R6ZO+5o6lIiwKICAgICJ3ZWJzaXRlX3RleHQiOiAi5a6Y572R5pi+56S65paH5a2XIiwgImVtYWlsX3ByZWZpeCI6ICLpgq7nrrHvvIjpk77mjqXvvIkiLCAiZW1haWxfdGV4dCI6ICLpgq7nrrHvvIjmmL7npLrvvIkiLAogICAgImxvY2F0aW9uX2xhYmVsIjogIuWcsOWdgOagh+etviIsICJyZXNwb25zZV9sYWJlbCI6ICLlk43lupTml7bpl7TmoIfnrb4iLAogICAgIndoYXRzYXBwX2xhYmVsIjogIldoYXRzQXBwIOagh+etviIsICJ3ZWJzaXRlX2xhYmVsIjogIuWumOe9keagh+etviIsCiAgICAiZW1haWxfbGFiZWwyIjogIumCrueuseagh+etviIsCn0KCgpkZWYgeWFtbF9zdHIocyk6CiAgICAiIiJRdW90ZSBhIHN0cmluZyBhcyBZQU1MIHNpbmdsZS1xdW90ZWQgKGVzY2FwZSAnIGFzICcnKS4iIiIKICAgIHJldHVybiAiJyIgKyBzdHIocykucmVwbGFjZSgiJyIsICInJyIpICsgIiciCgoKZGVmIGdlbl9maWVsZHMobm9kZSwga2V5X2hpbnQ9IiIpOgogICAgIiIiUmV0dXJuICh5YW1sX2ZpZWxkc19zdHJpbmcsIGlzX3NpbXBsZSkuIiIiCiAgICBpZiBpc2luc3RhbmNlKG5vZGUsIGRpY3QpOgogICAgICAgIGxpbmVzID0gWyJmaWVsZHM6Il0KICAgICAgICBmb3IgaywgdiBpbiBub2RlLml0ZW1zKCk6CiAgICAgICAgICAgIGxhYmVsID0gTEFCRUxTLmdldChrLCBrKQogICAgICAgICAgICBpZiBpc2luc3RhbmNlKHYsIGRpY3QpOgogICAgICAgICAgICAgICAgc3ViLCBfID0gZ2VuX2ZpZWxkcyh2LCBrKQogICAgICAgICAgICAgICAgbGluZXMuYXBwZW5kKGYiICAtIG5hbWU6IHt5YW1sX3N0cihrKX0iKQogICAgICAgICAgICAgICAgbGluZXMuYXBwZW5kKGYiICAgIGxhYmVsOiB7eWFtbF9zdHIobGFiZWwpfSIpCiAgICAgICAgICAgICAgICBsaW5lcy5hcHBlbmQoZiIgICAgd2lkZ2V0OiBvYmplY3QiKQogICAgICAgICAgICAgICAgZm9yIGwgaW4gc3ViLnNwbGl0bGluZXMoKToKICAgICAgICAgICAgICAgICAgICBsaW5lcy5hcHBlbmQoIiAgICAiICsgbCBpZiBsIGVsc2UgIiIpCiAgICAgICAgICAgIGVsaWYgaXNpbnN0YW5jZSh2LCBsaXN0KSBhbmQgdiBhbmQgaXNpbnN0YW5jZSh2WzBdLCBkaWN0KToKICAgICAgICAgICAgICAgIHN1YiwgXyA9IGdlbl9maWVsZHModlswXSwgaykKICAgICAgICAgICAgICAgIGxpbmVzLmFwcGVuZChmIiAgLSBuYW1lOiB7eWFtbF9zdHIoayl9IikKICAgICAgICAgICAgICAgIGxpbmVzLmFwcGVuZChmIiAgICBsYWJlbDoge3lhbWxfc3RyKGxhYmVsKX0iKQogICAgICAgICAgICAgICAgbGluZXMuYXBwZW5kKGYiICAgIHdpZGdldDogbGlzdCIpCiAgICAgICAgICAgICAgICBpdGVtX2xhYmVsID0gTEFCRUxTLmdldChrLnJzdHJpcCgncycpLCBrLnJzdHJpcCgncycpKQogICAgICAgICAgICAgICAgbGluZXMuYXBwZW5kKGYiICAgIHN1bW1hcnk6ICd7aXRlbV9sYWJlbH06IHt7ZmllbGRzLntsaXN0KHZbMF0ua2V5cygpKVswXX19fSciKQogICAgICAgICAgICAgICAgZm9yIGwgaW4gc3ViLnNwbGl0bGluZXMoKToKICAgICAgICAgICAgICAgICAgICBsaW5lcy5hcHBlbmQoIiAgICAiICsgbCBpZiBsIGVsc2UgIiIpCiAgICAgICAgICAgIGVsc2U6CiAgICAgICAgICAgICAgICBsaW5lcy5hcHBlbmQoZiIgIC0gbmFtZToge3lhbWxfc3RyKGspfSIpCiAgICAgICAgICAgICAgICBsaW5lcy5hcHBlbmQoZiIgICAgbGFiZWw6IHt5YW1sX3N0cihsYWJlbCl9IikKICAgICAgICAgICAgICAgIGxpbmVzLmFwcGVuZChmIiAgICB3aWRnZXQ6IHRleHQiKQogICAgICAgIHJldHVybiAiXG4iLmpvaW4obGluZXMpLCBGYWxzZQogICAgcmV0dXJuICIiLCBUcnVlCgoKQ09MTEVDVElPTlMgPSBbCiAgICAjIChmaWxlLCBuYW1lLCBsYWJlbCwgZGVzY3JpcHRpb24pCiAgICAoInNldHRpbmdzLmpzb24iLCAic2V0dGluZ3MiLCAi56uZ54K56K6+572uIiwgIuWTgeeJjOOAgeWvvOiIquOAgemhteiEmuS4juWFqOermemAmueUqOaWh+ahiCIpLAogICAgKCJob21lLmpzb24iLCAiaG9tZSIsICLpppblsY8gSGVybyIsICLpppblsY/kuLvop4bop4nmlofmoYjkuI7ljLrln5/opobnm5bor7TmmI4iKSwKICAgICgicHJvZHVjdC1saW5lcy5qc29uIiwgInByb2R1Y3QtbGluZXMiLCAi5Lqn5ZOB57q/IiwgIuS6lOWkp+WJguWei+WNoeeJhyIpLAogICAgKCJzZXJ2aWNlcy5qc29uIiwgInNlcnZpY2VzIiwgIuWQiOS9nOaWueW8jyIsICLmibnlj5EgLyBPRU0gLyBPRE0g5LiJ56eN5ZCI5L2cIiksCiAgICAoImNhcGFiaWxpdGllcy5qc29uIiwgImNhcGFiaWxpdGllcyIsICLog73lipvkuI7otYTotKgiLCAi5Zub5aSn6IO95Yqb5LiO6LWE6LSo5aOw5piOIiksCiAgICAoIm1hcmtldHMuanNvbiIsICJtYXJrZXRzIiwgIuebruagh+W4guWcuiIsICLmrKfmtLIgLyDnvo7lm70gLyDkuJzljZfkupoiKSwKICAgICgiYWJvdXQuanNvbiIsICJhYm91dCIsICLlhbPkuo7miJHku6wiLCAi5YWs5Y+45pWF5LqL5LiO5Zub5aSn5p2/5Z2XIiksCiAgICAoInByb2R1Y3RzLmpzb24iLCAicHJvZHVjdHMiLCAi5Lqn5ZOB5YiG57G7IiwgIuWbm+Wkp+WTgeexu+S4jui+ueeVjOWjsOaYjiIpLAogICAgKCJvZW0uanNvbiIsICJvZW0iLCAiT0VNIOa1geeoiyIsICLlhavmraXmtYHnqIvkuI7og73lipvovrnnlYwiKSwKICAgICgiY29udGFjdC5qc29uIiwgImNvbnRhY3QiLCAi6IGU57O76KGo5Y2VIiwgIuihqOWNleaWh+ahiOS4juebtOaOpeiBlOezu+aWueW8jyIpLApdCgoKZGVmIG1haW4oKToKICAgIGNvbmZpZyA9IFtdCiAgICBjb25maWcuYXBwZW5kKCIjIERlY2FwIENNUyDphY3nva7mlofku7Yg4oCUIFppbGkgTnV0cml0aW9uIOWklui0uOeLrOeri+ermSIpCiAgICBjb25maWcuYXBwZW5kKCIjIOiupOivgemTvui3r++8mk5ldGxpZnkg5qCH5YeG6Lev5b6E44CC5q2j5byP5ZCv55So5YmN6ZyA77yaIikKICAgIGNvbmZpZy5hcHBlbmQoIiMgICAxLiDms6jlhozlhY3otLkgTmV0bGlmeSDotKblj7fvvIhhcHAubmV0bGlmeS5jb23vvIkiKQogICAgY29uZmlnLmFwcGVuZCgiIyAgIDIuIOS7u+aEj+aWsOW7uuS4gOS4qiBTaXRl77yI5oiW55u05o6l5a+55o6l5pys5LuT5bqT77yJ77yM5ZCv55SoIEdpdEh1YiBPQXV0aCIpCiAgICBjb25maWcuYXBwZW5kKCIjICAgMy4g5L+d5a2YIFNpdGUg5ZCO77yM5oqK5Lul5LiL5Lik6aG55aGr5YWlIGJhY2tlbmTvvJoiKQogICAgY29uZmlnLmFwcGVuZCgiIyAgICAgICAgYmFzZV91cmw6IGh0dHBzOi8vYXBpLm5ldGxpZnkuY29tIikKICAgIGNvbmZpZy5hcHBlbmQoIiMgICAgICAgIGF1dGhfZW5kcG9pbnQ6IGF1dGgiKQogICAgY29uZmlnLmFwcGVuZCgiIyAgICAg5bm25ZyoIGFkbWluL2luZGV4Lmh0bWwg5L+d55WZIG5ldGxpZnktaWRlbnRpdHktd2lkZ2V0LmpzIOW8leeUqCIpCiAgICBjb25maWcuYXBwZW5kKCIiKQogICAgY29uZmlnLmFwcGVuZCgiYmFja2VuZDoiKQogICAgY29uZmlnLmFwcGVuZCgiICBuYW1lOiBnaXRodWIiKQogICAgY29uZmlnLmFwcGVuZCgiICByZXBvOiB6aWxpbnV0cml0aW9uLWFyY2gvemlsaS1udXRyaXRpb24tc2l0ZSIpCiAgICBjb25maWcuYXBwZW5kKCIgIGJyYW5jaDogbWFpbiIpCiAgICBjb25maWcuYXBwZW5kKCIjIE5ldGxpZnkg6ZqQ5byPIE9BdXRo77yI5rOo5YaM5ZCO5Y+W5raI5rOo6YeK5aGr5YWl77yJIikKICAgIGNvbmZpZy5hcHBlbmQoIiMgIGJhc2VfdXJsOiBodHRwczovL2FwaS5uZXRsaWZ5LmNvbSIpCiAgICBjb25maWcuYXBwZW5kKCIjICBhdXRoX2VuZHBvaW50OiBhdXRoIikKICAgIGNvbmZpZy5hcHBlbmQoIiIpCiAgICBjb25maWcuYXBwZW5kKCJsb2NhbF9iYWNrZW5kOiBmYWxzZSIpCiAgICBjb25maWcuYXBwZW5kKCIiKQogICAgY29uZmlnLmFwcGVuZCgiIyDlkI7lj7Dlm77niYfkuIrkvKDkvJrmj5DkuqTliLDku5PlupMgbWVkaWEvIOebruW9lSIpCiAgICBjb25maWcuYXBwZW5kKCJtZWRpYV9mb2xkZXI6ICdtZWRpYSciKQogICAgY29uZmlnLmFwcGVuZCgicHVibGljX2ZvbGRlcjogJy9tZWRpYSciKQogICAgY29uZmlnLmFwcGVuZCgiIikKICAgIGNvbmZpZy5hcHBlbmQoInNpdGVfdXJsOiBodHRwczovL3p2aXRhaGVhbHRoLmNvbSIpCiAgICBjb25maWcuYXBwZW5kKCIiKQogICAgY29uZmlnLmFwcGVuZCgiY29sbGVjdGlvbnM6IikKCiAgICBmb3IgZmlsZV9uYW1lLCBuYW1lLCBsYWJlbCwgZGVzYyBpbiBDT0xMRUNUSU9OUzoKICAgICAgICBwYXlsb2FkID0ganNvbi5sb2FkcygoQ09OVEVOVCAvIGZpbGVfbmFtZSkucmVhZF90ZXh0KGVuY29kaW5nPSJ1dGYtOCIpKQogICAgICAgIGZpZWxkcywgXyA9IGdlbl9maWVsZHMocGF5bG9hZCkKICAgICAgICBjb25maWcuYXBwZW5kKGYiICAtIG5hbWU6IHt5YW1sX3N0cihuYW1lKX0iKQogICAgICAgIGNvbmZpZy5hcHBlbmQoZiIgICAgbGFiZWw6IHt5YW1sX3N0cihsYWJlbCl9IikKICAgICAgICBjb25maWcuYXBwZW5kKGYiICAgIGRlc2NyaXB0aW9uOiB7eWFtbF9zdHIoZGVzYyl9IikKICAgICAgICBjb25maWcuYXBwZW5kKGYiICAgIGVkaXRvcjoge3sgcHJldmlldzogZmFsc2UgfX0iKQogICAgICAgIGNvbmZpZy5hcHBlbmQoIiAgICBmb3JtYXQ6IGpzb24iKQogICAgICAgIGNvbmZpZy5hcHBlbmQoZiIgICAgZmlsZXM6IikKICAgICAgICBjb25maWcuYXBwZW5kKGYiICAgICAgLSBuYW1lOiB7eWFtbF9zdHIobmFtZSl9IikKICAgICAgICBjb25maWcuYXBwZW5kKGYiICAgICAgICBsYWJlbDoge3lhbWxfc3RyKGxhYmVsKX0iKQogICAgICAgIGNvbmZpZy5hcHBlbmQoZiIgICAgICAgIGZpbGU6IHt5YW1sX3N0cignY29udGVudC8nICsgZmlsZV9uYW1lKX0iKQogICAgICAgIGNvbmZpZy5hcHBlbmQoZiIgICAgICAgIGZpZWxkczoiKQogICAgICAgIGZvciBsaW5lIGluIGZpZWxkcy5zcGxpdGxpbmVzKClbMTpdOiAgIyBza2lwIGxlYWRpbmcgImZpZWxkczoiCiAgICAgICAgICAgIGNvbmZpZy5hcHBlbmQoIiAgICAgICAgICAiICsgbGluZSkKCiAgICBPVVQud3JpdGVfdGV4dCgiXG4iLmpvaW4oY29uZmlnKSArICJcbiIsIGVuY29kaW5nPSJ1dGYtOCIpCiAgICBwcmludChmIndyaXR0ZW46IHtPVVR9ICh7bGVuKGNvbmZpZyl9IGxpbmVzKSIpCgoKaWYgX19uYW1lX18gPT0gIl9fbWFpbl9fIjoKICAgIG1haW4oKQ==
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate admin/config.yml for Decap CMS from content/*.json structure.
+Field structure mirrors the JSON exactly so Decap never drops keys on save."""
+import json
+import pathlib
+
+ROOT = pathlib.Path(__file__).resolve().parent.parent
+CONTENT = ROOT / "content"
+OUT = ROOT / "admin" / "config.yml"
+
+# Chinese labels; key name fallback is the raw key.
+LABELS = {
+    # generic
+    "title": "标题 / Title", "name": "名称 / Name", "desc": "描述 / Description",
+    "text": "文本 / Text", "lead": "导语 / Lead", "note": "备注 / Note",
+    "tags": "标签 / Tags", "link": "链接文字 / Link text",
+    "eyebrow": "栏目眉标 / Eyebrow",
+    # settings
+    "site": "站点", "meta": "SEO 元信息", "nav": "导航", "footer": "页脚",
+    "brand_name": "品牌名 / Brand", "nav_home": "导航-首页", "nav_about": "导航-关于我们",
+    "nav_products": "导航-产品", "nav_oem": "导航-OEM/ODM", "nav_contact": "导航-联系",
+    "cta_quote": "CTA 按钮文字（询价）", "sample_tag": "示例标签文字",
+    "sample_notice": "示例声明（加粗部分）", "footer_desc": "页脚简介",
+    "footer_site_title": "页脚-站点标题", "footer_contact_title": "页脚-联系标题",
+    "footer_copyright": "版权年份", "footer_company": "版权公司名",
+    "footer_privacy": "页脚-隐私链接", "footer_terms": "页脚-条款链接",
+    "footer_accessibility": "页脚-无障碍链接",
+    # hero
+    "hero": "首屏 Hero", "title1": "主标题（第一行）", "title2": "主标题（第二行, 高亮）",
+    "cta_secondary": "次按钮文字", "sample_note": "示例注记",
+    "proof_title": "覆盖区域标题", "proof0": "覆盖区域 1", "proof1": "覆盖区域 2",
+    "proof2": "覆盖区域 3", "title_key": "", "text_key": "副文字",
+    # product lines
+    "product-lines": "产品线", "items": "剂型卡片（最多5项）", "item": "剂型",
+    # services
+    "services": "合作方式", "cards": "合作卡片", "card": "方式",
+    # capabilities
+    "capabilities": "能力与资质", "features": "能力项", "feature": "能力",
+    "credentials": "资质声明", "text_html": "资质正文（可含强调标签）",
+    # markets
+    "markets": "目标市场", "regions": "区域列表", "region": "区域",
+    "note_compliance": "合规备注（每区域）", "note_logistics": "物流备注（每区域）",
+    # about
+    "about": "关于我们", "story_header": "公司故事正文", "cells": "四大板块（R&D/产能/质控/供应链）",
+    "cell": "板块",
+    # products
+    "products": "产品分类", "categories": "分类列表", "category": "分类",
+    "boundary": "边界声明", "p1_before": "边界声明第一段（含示例加粗）",
+    "p2": "边界声明第二段",
+    # oem
+    "oem": "OEM/ODM 服务", "steps": "流程步骤（8步）", "step": "步骤",
+    # contact
+    "contact": "联系表单", "form": "表单设置", "direct": "直接联系方式",
+    "name_label": "姓名标签", "email_label": "邮箱标签", "company_label": "公司标签",
+    "market_label": "目标市场标签", "market_placeholder": "市场占位选项",
+    "market_europe": "选项：欧洲", "market_us": "选项：美国",
+    "market_seasia": "选项：东南亚", "market_global": "选项：全球/其他",
+    "message_label": "留言标签", "message_placeholder": "留言占位提示",
+    "submit": "提交按钮", "privacy_note": "隐私声明",
+    "email": "邮箱", "location": "地址", "response": "响应时间",
+    "whatsapp": "WhatsApp", "website": "官网", "website_url": "官网链接",
+    "website_text": "官网显示文字", "email_prefix": "邮箱（链接）", "email_text": "邮箱（显示）",
+    "location_label": "地址标签", "response_label": "响应时间标签",
+    "whatsapp_label": "WhatsApp 标签", "website_label": "官网标签",
+    "email_label2": "邮箱标签",
+}
+
+
+def yaml_str(s):
+    """Quote a string as YAML single-quoted (escape ' as '')."""
+    return "'" + str(s).replace("'", "''") + "'"
+
+
+def gen_fields(node, key_hint=""):
+    """Return (yaml_fields_string, is_simple)."""
+    if isinstance(node, dict):
+        lines = ["fields:"]
+        for k, v in node.items():
+            label = LABELS.get(k, k)
+            if isinstance(v, dict):
+                sub, _ = gen_fields(v, k)
+                lines.append(f"  - name: {yaml_str(k)}")
+                lines.append(f"    label: {yaml_str(label)}")
+                lines.append(f"    widget: object")
+                for l in sub.splitlines():
+                    lines.append("    " + l if l else "")
+            elif isinstance(v, list) and v and isinstance(v[0], dict):
+                sub, _ = gen_fields(v[0], k)
+                lines.append(f"  - name: {yaml_str(k)}")
+                lines.append(f"    label: {yaml_str(label)}")
+                lines.append(f"    widget: list")
+                item_label = LABELS.get(k.rstrip('s'), k.rstrip('s'))
+                lines.append(f"    summary: '{item_label}: {{fields.{list(v[0].keys())[0]}}}'")
+                for l in sub.splitlines():
+                    lines.append("    " + l if l else "")
+            else:
+                lines.append(f"  - name: {yaml_str(k)}")
+                lines.append(f"    label: {yaml_str(label)}")
+                lines.append(f"    widget: text")
+        return "\n".join(lines), False
+    return "", True
+
+
+COLLECTIONS = [
+    # (file, name, label, description)
+    ("settings.json", "settings", "站点设置", "品牌、导航、页脚与全站通用文案"),
+    ("home.json", "home", "首屏 Hero", "首屏主视觉文案与区域覆盖说明"),
+    ("product-lines.json", "product-lines", "产品线", "五大剂型卡片"),
+    ("services.json", "services", "合作方式", "批发 / OEM / ODM 三种合作"),
+    ("capabilities.json", "capabilities", "能力与资质", "四大能力与资质声明"),
+    ("markets.json", "markets", "目标市场", "欧洲 / 美国 / 东南亚"),
+    ("about.json", "about", "关于我们", "公司故事与四大板块"),
+    ("products.json", "products", "产品分类", "四大品类与边界声明"),
+    ("oem.json", "oem", "OEM 流程", "八步流程与能力边界"),
+    ("contact.json", "contact", "联系表单", "表单文案与直接联系方式"),
+]
+
+
+def main():
+    config = []
+    config.append("# Decap CMS 配置文件 — Zili Nutrition 外贸独立站")
+    config.append("# 认证链路：Netlify 标准路径。正式启用前需：")
+    config.append("#   1. 注册免费 Netlify 账号（app.netlify.com）")
+    config.append("#   2. 任意新建一个 Site（或直接对接本仓库），启用 GitHub OAuth")
+    config.append("#   3. 保存 Site 后，把以下两项填入 backend：")
+    config.append("#        base_url: https://api.netlify.com")
+    config.append("#        auth_endpoint: auth")
+    config.append("#     并在 admin/index.html 保留 netlify-identity-widget.js 引用")
+    config.append("")
+    config.append("backend:")
+    config.append("  name: github")
+    config.append("  repo: zilinutrition-arch/zili-nutrition-site")
+    config.append("  branch: main")
+    config.append("# Netlify 隐式 OAuth（注册后取消注释填入）")
+    config.append("#  base_url: https://api.netlify.com")
+    config.append("#  auth_endpoint: auth")
+    config.append("")
+    config.append("local_backend: false")
+    config.append("")
+    config.append("# 后台图片上传会提交到仓库 media/ 目录")
+    config.append("media_folder: 'media'")
+    config.append("public_folder: '/media'")
+    config.append("")
+    config.append("site_url: https://zvitahealth.com")
+    config.append("")
+    config.append("collections:")
+
+    for file_name, name, label, desc in COLLECTIONS:
+        payload = json.loads((CONTENT / file_name).read_text(encoding="utf-8"))
+        fields, _ = gen_fields(payload)
+        config.append(f"  - name: {yaml_str(name)}")
+        config.append(f"    label: {yaml_str(label)}")
+        config.append(f"    description: {yaml_str(desc)}")
+        config.append(f"    editor: {{ preview: false }}")
+        config.append("    format: json")
+        config.append(f"    files:")
+        config.append(f"      - name: {yaml_str(name)}")
+        config.append(f"        label: {yaml_str(label)}")
+        config.append(f"        file: {yaml_str('content/' + file_name)}")
+        config.append(f"        fields:")
+        for line in fields.splitlines()[1:]:  # skip leading "fields:"
+            config.append("          " + line)
+
+    OUT.write_text("\n".join(config) + "\n", encoding="utf-8")
+    print(f"written: {OUT} ({len(config)} lines)")
+
+
+if __name__ == "__main__":
+    main()

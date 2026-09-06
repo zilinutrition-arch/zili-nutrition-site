@@ -1,1 +1,36 @@
-ewogICJleWVicm93IjogIkNvbnRhY3QiLAogICJ0aXRsZSI6ICJSZXF1ZXN0IGEgUXVvdGUiLAogICJsZWFkIjogIlRlbGwgdXMgd2hhdCB5b3UgbmVlZCBhbmQgd2hpY2ggbWFya2V0IHlvdSBzZWxsIGludG8uIEEgc2FtcGxlIG1lc3NhZ2UgZmxvdyDigJQgY29ubmVjdCB0byB5b3VyIHJlYWwgaW5ib3ggYmVmb3JlIGdvaW5nIGxpdmUuIiwKICAiZm9ybSI6IHsKICAgICJuYW1lX2xhYmVsIjogIkZ1bGwgbmFtZSIsCiAgICAiZW1haWxfbGFiZWwiOiAiQnVzaW5lc3MgZW1haWwiLAogICAgImNvbXBhbnlfbGFiZWwiOiAiQ29tcGFueSIsCiAgICAibWFya2V0X2xhYmVsIjogIlRhcmdldCBtYXJrZXQiLAogICAgIm1hcmtldF9wbGFjZWhvbGRlciI6ICJTZWxlY3QgYSBtYXJrZXTigKYiLAogICAgIm1hcmtldF9ldXJvcGUiOiAiRXVyb3BlIiwKICAgICJtYXJrZXRfdXMiOiAiVW5pdGVkIFN0YXRlcyIsCiAgICAibWFya2V0X3NlYXNpYSI6ICJTb3V0aGVhc3QgQXNpYSIsCiAgICAibWFya2V0X2dsb2JhbCI6ICJHbG9iYWwgLyBPdGhlciIsCiAgICAibWVzc2FnZV9sYWJlbCI6ICJIb3cgY2FuIHdlIGhlbHA/IiwKICAgICJtZXNzYWdlX3BsYWNlaG9sZGVyIjogIlByb2R1Y3QgaWRlYSwgZG9zYWdlIGZvcm0sIGVzdGltYXRlZCB2b2x1bWUsIHRpbWVsaW5l4oCmIChzYW1wbGUgcHJvbXB0KSIsCiAgICAic3VibWl0IjogIlN1Ym1pdCBJbnF1aXJ5IiwKICAgICJwcml2YWN5X25vdGUiOiAiUHJpdmFjeSAoU2FtcGxlKTogYnkgc3VibWl0dGluZywgeW91IGFncmVlIHRoYXQgd2UgbWF5IHVzZSB5b3VyIGRldGFpbHMgdG8gcmVzcG9uZCB0byB0aGlzIGlucXVpcnkuIFJlcGxhY2Ugd2l0aCB5b3VyIHJlYWwgcHJpdmFjeSBzdGF0ZW1lbnQgYW5kIGRhdGEtcHJvY2Vzc2luZyB0ZXJtcyBiZWZvcmUgZ28tbGl2ZS4iCiAgfSwKICAiZGlyZWN0IjogewogICAgInRpdGxlIjogIkRpcmVjdCBjb250YWN0IiwKICAgICJlbWFpbF9sYWJlbCI6ICJFbWFpbCIsCiAgICAiZW1haWxfcHJlZml4IjogInp2aXRhaGVhbHRoQG91dGxvb2suY29tIiwKICAgICJlbWFpbF90ZXh0IjogInp2aXRhaGVhbHRoQG91dGxvb2suY29tIiwKICAgICJsb2NhdGlvbl9sYWJlbCI6ICJMb2NhdGlvbiIsCiAgICAibG9jYXRpb24iOiAiWmhlbmd6aG91LCBIZW5hbiwgQ2hpbmEiLAogICAgInJlc3BvbnNlX2xhYmVsIjogIlJlc3BvbnNlIHRpbWUiLAogICAgInJlc3BvbnNlIjogIlNhbXBsZTogd2l0aGluIDEgYnVzaW5lc3MgZGF5IiwKICAgICJ3aGF0c2FwcF9sYWJlbCI6ICJXaGF0c0FwcCIsCiAgICAid2hhdHNhcHAiOiAiKzg2IDE3NyAwMDY5IDkwNzkiLAogICAgIndlYnNpdGVfbGFiZWwiOiAiV2Vic2l0ZSIsCiAgICAid2Vic2l0ZV91cmwiOiAiaHR0cHM6Ly93d3cuenZpdGFoZWFsdGguY29tIiwKICAgICJ3ZWJzaXRlX3RleHQiOiAid3d3Lnp2aXRhaGVhbHRoLmNvbSIKICB9LAogICJub3RlIjogIldlIHNlcnZlIGJ1c2luZXNzIGN1c3RvbWVycyAod2hvbGVzYWxlcnMsIGJyYW5kcywgaW1wb3J0ZXJzKS4gV2UgZG8gbm90IHNlbGwgZGlyZWN0bHkgdG8gY29uc3VtZXJzIG9uIHRoaXMgc2l0ZS4iCn0K
+{
+  "eyebrow": "Contact",
+  "title": "Request a Quote",
+  "lead": "Tell us what you need and which market you sell into. A sample message flow — connect to your real inbox before going live.",
+  "form": {
+    "name_label": "Full name",
+    "email_label": "Business email",
+    "company_label": "Company",
+    "market_label": "Target market",
+    "market_placeholder": "Select a market…",
+    "market_europe": "Europe",
+    "market_us": "United States",
+    "market_seasia": "Southeast Asia",
+    "market_global": "Global / Other",
+    "message_label": "How can we help?",
+    "message_placeholder": "Product idea, dosage form, estimated volume, timeline… (sample prompt)",
+    "submit": "Submit Inquiry",
+    "privacy_note": "Privacy (Sample): by submitting, you agree that we may use your details to respond to this inquiry. Replace with your real privacy statement and data-processing terms before go-live."
+  },
+  "direct": {
+    "title": "Direct contact",
+    "email_label": "Email",
+    "email_prefix": "zvitahealth@outlook.com",
+    "email_text": "zvitahealth@outlook.com",
+    "location_label": "Location",
+    "location": "Zhengzhou, Henan, China",
+    "response_label": "Response time",
+    "response": "Sample: within 1 business day",
+    "whatsapp_label": "WhatsApp",
+    "whatsapp": "+86 177 0069 9079",
+    "website_label": "Website",
+    "website_url": "https://www.zvitahealth.com",
+    "website_text": "www.zvitahealth.com"
+  },
+  "note": "We serve business customers (wholesalers, brands, importers). We do not sell directly to consumers on this site."
+}
