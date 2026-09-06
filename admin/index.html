@@ -61,13 +61,11 @@
   <script>
     // 显式配置 Netlify Identity 站点（自定义域名托管在 GitHub Pages 时必需）
     if (window.netlifyIdentity) {
-      window.netlifyIdentity.init({
-        APIUrl: 'https://aesthetic-marzipan-71d83e.netlify.app/.netlify/identity'
-      });
-    }
-    // 自动加载同目录 config.yml，并由 Netlify Identity 接管登录
-    if (window.netlifyIdentity) {
+      // 必须先注册 init 回调，再调用 init()
       window.netlifyIdentity.on("init", function (user) {
+        window.netlifyIdentity.init({
+          APIUrl: 'https://aesthetic-marzipan-71d83e.netlify.app/.netlify/identity'
+        });
         var btn = document.getElementById("netlify-login-btn");
         if (user) {
           document.getElementById("login-panel").classList.add("is-hidden");
