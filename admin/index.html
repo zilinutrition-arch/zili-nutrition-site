@@ -4,6 +4,17 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>内容管理后台 · Zili Nutrition</title>
+  <script>
+    // Polyfill: Decap CMS 在旧浏览器或 http 安全上下文中需要 crypto.randomUUID
+    if (typeof crypto !== 'undefined' && !crypto.randomUUID) {
+      crypto.randomUUID = function () {
+        return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
+          var r = Math.random() * 16 | 0, v = c === 'x' ? r : (r & 0x3 | 0x8);
+          return v.toString(16);
+        });
+      };
+    }
+  </script>
   <style>
     html, body {
       margin: 0;
