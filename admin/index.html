@@ -66,17 +66,19 @@
   </div>
 
   <!-- Netlify Identity：GitHub backend 的官方认证入口 -->
+  <script>
+    // 在 Identity widget 加载前显式配置站点 API（自定义域名托管在 GitHub Pages 时必需）
+    window.netlifyIdentityConfig = {
+      APIUrl: 'https://aesthetic-marzipan-71d83e.netlify.app/.netlify/identity'
+    };
+  </script>
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   <!-- Decap CMS 前端（本地 vendor，避免依赖 unpkg 加载） -->
   <script src="./decap-cms.js"></script>
   <script>
-    // 显式配置 Netlify Identity 站点（自定义域名托管在 GitHub Pages 时必需）
+    // 自动加载同目录 config.yml，并由 Netlify Identity 接管登录
     if (window.netlifyIdentity) {
-      // 必须先注册 init 回调，再调用 init()
       window.netlifyIdentity.on("init", function (user) {
-        window.netlifyIdentity.init({
-          APIUrl: 'https://aesthetic-marzipan-71d83e.netlify.app/.netlify/identity'
-        });
         var btn = document.getElementById("netlify-login-btn");
         if (user) {
           document.getElementById("login-panel").classList.add("is-hidden");
