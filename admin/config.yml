@@ -11,9 +11,9 @@ backend:
   name: github
   repo: zilinutrition-arch/zili-nutrition-site
   branch: main
-# Netlify 隐式 OAuth（注册后取消注释填入）
-#  base_url: https://api.netlify.com
-#  auth_endpoint: auth
+# Netlify 隐式 OAuth
+  base_url: https://api.netlify.com
+  auth_endpoint: auth
 
 local_backend: false
 
